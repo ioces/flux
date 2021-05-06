@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -81,21 +81,6 @@ Wire Wire Line
 Wire Wire Line
 	7450 6100 7800 6100
 Connection ~ 7800 6100
-$Comp
-L power:+BATT #PWR013
-U 1 1 5EA17F06
-P 7450 3400
-AR Path="/5EA10576/5EA17F06" Ref="#PWR013"  Part="1" 
-AR Path="/5EEA69D8/5EA17F06" Ref="#PWR?"  Part="1" 
-AR Path="/5F6BFC9B/5EA17F06" Ref="#PWR?"  Part="1" 
-AR Path="/5EFF2C78/5EA17F06" Ref="#PWR029"  Part="1" 
-F 0 "#PWR029" H 7450 3250 50  0001 C CNN
-F 1 "+BATT" H 7465 3573 50  0000 C CNN
-F 2 "" H 7450 3400 50  0001 C CNN
-F 3 "" H 7450 3400 50  0001 C CNN
-	1    7450 3400
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C12
 U 1 1 5EA18D9D
@@ -764,24 +749,8 @@ $EndComp
 Wire Wire Line
 	1300 1350 1300 1400
 Connection ~ 1300 1350
-$Comp
-L Jumper:SolderJumper_2_Open JP1
-U 1 1 5EEB1D69
-P 7450 3600
-AR Path="/5EA10576/5EEB1D69" Ref="JP1"  Part="1" 
-AR Path="/5F6BFC9B/5EEB1D69" Ref="JP?"  Part="1" 
-AR Path="/5EFF2C78/5EEB1D69" Ref="JP4"  Part="1" 
-F 0 "JP4" V 7450 3668 50  0000 L CNN
-F 1 "SolderJumper_2_Open" V 7495 3668 50  0001 L CNN
-F 2 "station:SolderJumper-2_6A" H 7450 3600 50  0001 C CNN
-F 3 "~" H 7450 3600 50  0001 C CNN
-	1    7450 3600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7450 3750 7450 3800
-Wire Wire Line
-	7450 3400 7450 3450
 $Comp
 L Device:C C17
 U 1 1 5EF02431
@@ -1524,4 +1493,17 @@ Text Label 9700 5400 0    50   ~ 0
 SHUNT+
 Text Label 9700 5700 0    50   ~ 0
 SHUNT-
+$Comp
+L Station:+V_PWR #PWR051
+U 1 1 606EBBA2
+P 7450 3750
+AR Path="/5EFF2C78/606EBBA2" Ref="#PWR051"  Part="1" 
+AR Path="/5EA10576/606EBBA2" Ref="#PWR050"  Part="1" 
+F 0 "#PWR051" H 7450 3600 50  0001 C CNN
+F 1 "+V_PWR" H 7465 3923 50  0000 C CNN
+F 2 "" H 7450 3750 50  0001 C CNN
+F 3 "" H 7450 3750 50  0001 C CNN
+	1    7450 3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -31,21 +31,21 @@ Text HLabel 5650 2150 0    50   Output ~ 0
 CHA_HI
 Text HLabel 5650 2450 0    50   Output ~ 0
 CHA_LO
-Text HLabel 5650 1350 0    50   Input ~ 0
+Text HLabel 5650 1650 0    50   Input ~ 0
 CHA_VOL
-Text HLabel 5650 1450 0    50   Input ~ 0
+Text HLabel 5650 1750 0    50   Input ~ 0
 CHA_CUR
-Text HLabel 5650 1550 0    50   Input ~ 0
+Text HLabel 5650 1850 0    50   Input ~ 0
 CHA_TEMP
 Text HLabel 5650 2250 0    50   Output ~ 0
 CHB_HI
 Text HLabel 5650 2550 0    50   Output ~ 0
 CHB_LO
-Text HLabel 5650 1650 0    50   Input ~ 0
+Text HLabel 5650 1350 0    50   Input ~ 0
 CHB_VOL
-Text HLabel 5650 1750 0    50   Input ~ 0
+Text HLabel 5650 1450 0    50   Input ~ 0
 CHB_CUR
-Text HLabel 5650 1850 0    50   Input ~ 0
+Text HLabel 5650 1550 0    50   Input ~ 0
 CHB_TEMP
 $Comp
 L Device:C C?
@@ -384,21 +384,21 @@ Wire Wire Line
 Wire Wire Line
 	5650 2250 5750 2250
 Wire Wire Line
-	5650 1350 5750 1350
+	5650 1650 5750 1650
 Wire Wire Line
-	5650 1450 5750 1450
+	5650 1750 5750 1750
 Wire Wire Line
 	5750 2450 5650 2450
 Wire Wire Line
 	5750 2550 5650 2550
 Wire Wire Line
-	5650 1650 5750 1650
+	5650 1350 5750 1350
 Wire Wire Line
-	5650 1750 5750 1750
-Wire Wire Line
-	5650 1550 5750 1550
+	5650 1450 5750 1450
 Wire Wire Line
 	5650 1850 5750 1850
+Wire Wire Line
+	5650 1550 5750 1550
 Wire Wire Line
 	8200 2750 8300 2750
 Wire Wire Line
@@ -521,7 +521,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 2300 9100 2250
 Text Label 8700 1750 2    50   ~ 0
-TRST
+~TRST
 Text Label 8700 1650 2    50   ~ 0
 TDO
 Text Label 4900 2850 0    50   ~ 0
@@ -572,32 +572,19 @@ NoConn ~ 8200 1550
 NoConn ~ 8200 1850
 NoConn ~ 8200 2350
 NoConn ~ 8200 2450
-NoConn ~ 8200 3050
-NoConn ~ 8200 3150
 NoConn ~ 5750 3150
 NoConn ~ 5750 3250
 NoConn ~ 5750 2350
 NoConn ~ 5750 1950
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J4
-U 1 1 5F5A8B34
-P 6850 5100
-F 0 "J4" H 6900 5425 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 6900 5426 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 6850 5100 50  0001 C CNN
-F 3 "~" H 6850 5100 50  0001 C CNN
-	1    6850 5100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Station:+3V3_STBY #PWR045
 U 1 1 5F5AB1B9
-P 6500 4750
-F 0 "#PWR045" H 6500 4600 50  0001 C CNN
-F 1 "+3V3_STBY" H 6515 4923 50  0000 C CNN
-F 2 "" H 6500 4750 50  0001 C CNN
-F 3 "" H 6500 4750 50  0001 C CNN
-	1    6500 4750
+P 6300 4700
+F 0 "#PWR045" H 6300 4550 50  0001 C CNN
+F 1 "+3V3_STBY" H 6315 4873 50  0000 C CNN
+F 2 "" H 6300 4700 50  0001 C CNN
+F 3 "" H 6300 4700 50  0001 C CNN
+	1    6300 4700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -612,55 +599,32 @@ F 3 "" H 1900 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6500 4750 6500 4900
+	6300 4700 6300 4850
 Wire Wire Line
-	6500 4900 6650 4900
+	6300 4850 6650 4850
 Wire Wire Line
-	6650 5000 6500 5000
-Wire Wire Line
-	6500 5000 6500 5100
-Wire Wire Line
-	6500 5100 6650 5100
-Wire Wire Line
-	6500 5100 6500 5300
-Wire Wire Line
-	6500 5300 6650 5300
-Connection ~ 6500 5100
-NoConn ~ 6650 5200
+	6300 5250 6650 5250
 $Comp
 L power:GND #PWR046
 U 1 1 5F5BC388
-P 6500 5400
-F 0 "#PWR046" H 6500 5150 50  0001 C CNN
-F 1 "GND" H 6505 5227 50  0000 C CNN
-F 2 "" H 6500 5400 50  0001 C CNN
-F 3 "" H 6500 5400 50  0001 C CNN
-	1    6500 5400
+P 6300 5400
+F 0 "#PWR046" H 6300 5150 50  0001 C CNN
+F 1 "GND" H 6305 5227 50  0000 C CNN
+F 2 "" H 6300 5400 50  0001 C CNN
+F 3 "" H 6300 5400 50  0001 C CNN
+	1    6300 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6500 5300 6500 5400
-Connection ~ 6500 5300
+	6300 5250 6300 5400
 Wire Wire Line
-	7150 4900 7400 4900
+	6650 4950 6400 4950
 Wire Wire Line
-	7150 5000 7400 5000
-Wire Wire Line
-	7150 5100 7400 5100
-Wire Wire Line
-	7150 5200 7400 5200
-Wire Wire Line
-	7150 5300 7400 5300
-Text Label 7400 4900 2    50   ~ 0
+	6650 5150 6400 5150
+Text Label 6400 4950 0    50   ~ 0
 TMS
-Text Label 7400 5000 2    50   ~ 0
+Text Label 6400 5150 0    50   ~ 0
 TCK
-Text Label 7400 5100 2    50   ~ 0
-TDO
-Text Label 7400 5200 2    50   ~ 0
-TDI
-Text Label 7400 5300 2    50   ~ 0
-~RST
 $Comp
 L Station:+3V3_STBY #PWR048
 U 1 1 5F5E1830
@@ -676,4 +640,45 @@ Text HLabel 5650 2050 0    50   Input ~ 0
 BAT_VOL
 Wire Wire Line
 	5650 2050 5750 2050
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise J4
+U 1 1 607C3506
+P 6850 5050
+F 0 "J4" H 6900 5375 50  0000 C CNN
+F 1 "Conn_02x05_Counter_Clockwise" H 6900 5376 50  0001 C CNN
+F 2 "Connector:Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical" H 6850 5050 50  0001 C CNN
+F 3 "~" H 6850 5050 50  0001 C CNN
+	1    6850 5050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7150 5150
+Wire Wire Line
+	7150 4950 7400 4950
+Wire Wire Line
+	6300 5050 6300 5250
+Wire Wire Line
+	6300 5050 6650 5050
+Connection ~ 6300 5250
+Text Label 7400 5250 2    50   ~ 0
+TDO
+Wire Wire Line
+	7150 5250 7400 5250
+Text Label 7400 5050 2    50   ~ 0
+TDI
+Wire Wire Line
+	7150 5050 7400 5050
+Text Label 7400 4850 2    50   ~ 0
+~RST
+Wire Wire Line
+	7150 4850 7400 4850
+Text Label 7400 4950 2    50   ~ 0
+~TRST
+Text HLabel 8300 3050 2    50   Output ~ 0
+EN_12V
+Wire Wire Line
+	8200 3050 8300 3050
+Text HLabel 8300 3150 2    50   Output ~ 0
+EN_3V3
+Wire Wire Line
+	8200 3150 8300 3150
 $EndSCHEMATC

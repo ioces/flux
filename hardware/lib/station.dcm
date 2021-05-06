@@ -5,6 +5,11 @@ D Power symbol creates a global label with name "+3V3_STBY"
 K power-flag
 $ENDCMP
 #
+$CMP +V_PWR
+D Power symbol creates a global label with name "+V_PWR"
+K power-flag
+$ENDCMP
+#
 $CMP LM5164DDAR
 D 100 V input, 1A synchronous buck DC/DC converter with ultra low Iq
 K step-down dc-dc buck regulator adjustable
