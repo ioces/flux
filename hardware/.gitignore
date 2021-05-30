@@ -29,3 +29,8 @@ fp-info-cache
 
 # Plugin log files
 *.log
+
+# Manufacturing files
+out/*.zip
+out/*.g*
+out/*.drl
