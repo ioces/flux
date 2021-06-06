@@ -31,6 +31,4 @@ fp-info-cache
 *.log
 
 # Manufacturing files
-out/*.zip
-out/*.g*
-out/*.drl
+out/*
