@@ -14,8 +14,8 @@ Flux is still a work in progress, and has just made it to the PCA prototyping st
 - [x] Schematic capture
 - [x] PCB layout of v1.0.0
 - [x] Prototype PCB/stencil ordered
-- [ ] BOM generation
-- [ ] Part ordering
+- [x] BOM generation
+- [x] Part ordering
 - [ ] Documentation
 - [ ] Prototype assembly
 - [ ] Firmware development
