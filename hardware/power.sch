@@ -21,6 +21,8 @@ F 0 "U6" H 3600 2267 50  0000 C CNN
 F 1 "LM5164DDAR" H 3600 2176 50  0000 C CNN
 F 2 "Package_SO:TI_SO-PowerPAD-8" H 3650 1250 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm5164.pdf" H 3600 2250 50  0001 C CNN
+F 4 "Texas Instruments" H 3600 1700 50  0001 C CNN "Manufacturer"
+F 5 "LM5164DDAR" H 3600 1700 50  0001 C CNN "Part Number"
 	1    3600 1700
 	1    0    0    -1  
 $EndComp
@@ -44,8 +46,10 @@ P 3000 2100
 F 0 "R24" H 3070 2146 50  0000 L CNN
 F 1 "150k" H 3070 2055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2930 2100 50  0001 C CNN
-F 3 "~" H 3000 2100 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3000 2100 50  0001 C CNN
 F 4 "1%" H 3000 2100 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 3000 2100 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603FT150K" H 3000 2100 50  0001 C CNN "Part Number"
 	1    3000 2100
 	1    0    0    -1  
 $EndComp
@@ -74,8 +78,10 @@ P 2600 2100
 F 0 "R23" H 2670 2146 50  0000 L CNN
 F 1 "205k" H 2670 2055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2530 2100 50  0001 C CNN
-F 3 "~" H 2600 2100 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 2600 2100 50  0001 C CNN
 F 4 "1%" H 2600 2100 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 2600 2100 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603FT205K" H 2600 2100 50  0001 C CNN "Part Number"
 	1    2600 2100
 	1    0    0    -1  
 $EndComp
@@ -86,8 +92,10 @@ P 2600 1600
 F 0 "R22" H 2670 1646 50  0000 L CNN
 F 1 "2M" H 2670 1555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2530 1600 50  0001 C CNN
-F 3 "~" H 2600 1600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 2600 1600 50  0001 C CNN
 F 4 "1%" H 2600 1600 50  0001 C CNN "Tolerance"
+F 5 "Panasonic" H 2600 1600 50  0001 C CNN "Manufacturer"
+F 6 "ERJ-3EKF2004V" H 2600 1600 50  0001 C CNN "Part Number"
 	1    2600 1600
 	1    0    0    -1  
 $EndComp
@@ -121,9 +129,11 @@ P 2200 1850
 F 0 "C20" H 2315 1896 50  0000 L CNN
 F 1 "2.2u" H 2315 1805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 2238 1700 50  0001 C CNN
-F 3 "~" H 2200 1850 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=HMK325B7225KM-T%20%20&u=M" H 2200 1850 50  0001 C CNN
 F 4 "100 V" H 2200 1850 50  0001 C CNN "Voltage Rating"
-F 5 "C3225X7R2A225K230AB" H 2200 1850 50  0001 C CNN "Model"
+F 5 "HMK325B7225KM-T" H 2200 1850 50  0001 C CNN "Part Number"
+F 6 "Taiyo Yuden" H 2200 1850 50  0001 C CNN "Manufacturer"
+F 7 "10%" H 2200 1850 50  0001 C CNN "Tolerance"
 	1    2200 1850
 	1    0    0    -1  
 $EndComp
@@ -142,7 +152,8 @@ F 0 "L2" V 5140 1400 50  0000 C CNN
 F 1 "100u" V 5049 1400 50  0000 C CNN
 F 2 "station:L_Coilcraft_MSS1210" H 4950 1400 50  0001 C CNN
 F 3 "http://www.coilcraft.com/pdfs/mss1210.pdf" H 4950 1400 50  0001 C CNN
-F 4 "MSS1210-104KEB" V 4950 1400 50  0001 C CNN "Model"
+F 4 "MSS1210-104KEB" V 4950 1400 50  0001 C CNN "Part Number"
+F 5 "Coilcraft" H 4950 1400 50  0001 C CNN "Manufacturer"
 	1    4950 1400
 	0    -1   -1   0   
 $EndComp
@@ -153,9 +164,11 @@ P 4300 1400
 F 0 "C29" V 4048 1400 50  0000 C CNN
 F 1 "2.2n" V 4139 1400 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4338 1250 50  0001 C CNN
-F 3 "~" H 4300 1400 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C222K5RACTU.pdf" H 4300 1400 50  0001 C CNN
 F 4 "50 V" H 4300 1400 50  0001 C CNN "Voltage Rating"
-F 5 "C0805C222K5RACTU" H 4300 1400 50  0001 C CNN "Model"
+F 5 "C0805C222K5RACTU" H 4300 1400 50  0001 C CNN "Part Number"
+F 6 "KEMET" H 4300 1400 50  0001 C CNN "Manufacturer"
+F 7 "10%" H 4300 1400 50  0001 C CNN "Tolerance"
 	1    4300 1400
 	0    1    1    0   
 $EndComp
@@ -172,8 +185,10 @@ P 4950 1850
 F 0 "R28" V 5065 1850 50  0000 C CNN
 F 1 "270k" V 5156 1850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4880 1850 50  0001 C CNN
-F 3 "~" H 4950 1850 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 4950 1850 50  0001 C CNN
 F 4 "1%" H 4950 1850 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 4950 1850 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603FT270K" H 4950 1850 50  0001 C CNN "Part Number"
 	1    4950 1850
 	0    1    1    0   
 $EndComp
@@ -184,7 +199,11 @@ P 5450 1850
 F 0 "C32" V 5702 1850 50  0000 C CNN
 F 1 "47p" V 5611 1850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5488 1700 50  0001 C CNN
-F 3 "~" H 5450 1850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012006021.pdf" H 5450 1850 50  0001 C CNN
+F 4 "Wurth Electronik" H 5450 1850 50  0001 C CNN "Manufacturer"
+F 5 "885012006021" H 5450 1850 50  0001 C CNN "Part Number"
+F 6 "5%" H 5450 1850 50  0001 C CNN "Tolerance"
+F 7 "16V" H 5450 1850 50  0001 C CNN "Voltage Rating"
 	1    5450 1850
 	0    -1   -1   0   
 $EndComp
@@ -202,8 +221,10 @@ P 5850 1600
 F 0 "R29" H 5780 1554 50  0000 R CNN
 F 1 "536k" H 5780 1645 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5780 1600 50  0001 C CNN
-F 3 "~" H 5850 1600 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 5850 1600 50  0001 C CNN
 F 4 "1%" H 5850 1600 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 5850 1600 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603FT536K" H 5850 1600 50  0001 C CNN "Part Number"
 	1    5850 1600
 	-1   0    0    1   
 $EndComp
@@ -235,8 +256,10 @@ P 5850 2100
 F 0 "R30" H 5780 2054 50  0000 R CNN
 F 1 "59k" H 5780 2145 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5780 2100 50  0001 C CNN
-F 3 "~" H 5850 2100 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 5850 2100 50  0001 C CNN
 F 4 "1%" H 5850 2100 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 5850 2100 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603FT59K0" H 5850 2100 50  0001 C CNN "Part Number"
 	1    5850 2100
 	-1   0    0    1   
 $EndComp
@@ -261,9 +284,11 @@ P 5200 1600
 F 0 "C30" H 5315 1554 50  0000 L CNN
 F 1 "2.2n" H 5315 1645 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5238 1450 50  0001 C CNN
-F 3 "~" H 5200 1600 50  0001 C CNN
-F 4 "C0805C222K5RACTU" H 5200 1600 50  0001 C CNN "Model"
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C222K5RACTU.pdf" H 5200 1600 50  0001 C CNN
+F 4 "C0805C222K5RACTU" H 5200 1600 50  0001 C CNN "Part Number"
 F 5 "50 V" H 5200 1600 50  0001 C CNN "Voltage Rating"
+F 6 "KEMET" H 5200 1600 50  0001 C CNN "Manufacturer"
+F 7 "10%" H 5200 1600 50  0001 C CNN "Tolerance"
 	1    5200 1600
 	-1   0    0    1   
 $EndComp
@@ -281,8 +306,11 @@ P 6400 1850
 F 0 "C34" H 6515 1896 50  0000 L CNN
 F 1 "10u" H 6515 1805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 6438 1700 50  0001 C CNN
-F 3 "~" H 6400 1850 50  0001 C CNN
+F 3 "http://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf" H 6400 1850 50  0001 C CNN
 F 4 "35 V" H 6400 1850 50  0001 C CNN "Voltage Rating"
+F 5 "Taiyo Yuden" H 6400 1850 50  0001 C CNN "Manufacturer"
+F 6 "GMK316AB7106KL-TR" H 6400 1850 50  0001 C CNN "Part Number"
+F 7 "10%" H 6400 1850 50  0001 C CNN "Tolerance"
 	1    6400 1850
 	1    0    0    -1  
 $EndComp
@@ -301,7 +329,9 @@ P 8650 1500
 F 0 "Q5" V 8992 1500 50  0000 C CNN
 F 1 "DMP2120U" V 8901 1500 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8850 1600 50  0001 C CNN
-F 3 "~" H 8650 1500 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMP2120U.pdf" H 8650 1500 50  0001 C CNN
+F 4 "Diodes Incorporated" H 8650 1500 50  0001 C CNN "Manufacturer"
+F 5 "DMP2120U" H 8650 1500 50  0001 C CNN "Part Number"
 	1    8650 1500
 	0    1    -1   0   
 $EndComp
@@ -316,8 +346,10 @@ P 8050 1800
 F 0 "R33" V 8257 1800 50  0000 C CNN
 F 1 "10k" V 8166 1800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7980 1800 50  0001 C CNN
-F 3 "~" H 8050 1800 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 8050 1800 50  0001 C CNN
 F 4 "5%" H 8050 1800 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 8050 1800 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603JG10K0" H 8050 1800 50  0001 C CNN "Part Number"
 	1    8050 1800
 	0    -1   -1   0   
 $EndComp
@@ -328,8 +360,11 @@ P 8950 1600
 F 0 "C36" H 8835 1646 50  0000 R CNN
 F 1 "1u" H 8835 1555 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 8988 1450 50  0001 C CNN
-F 3 "~" H 8950 1600 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C105K3RACAUTO.pdf" H 8950 1600 50  0001 C CNN
 F 4 "25 V" H 8950 1600 50  0001 C CNN "Voltage Rating"
+F 5 "KEMET" H 8950 1600 50  0001 C CNN "Manufacturer"
+F 6 "C1206C105K3RACAUTO" H 8950 1600 50  0001 C CNN "Part Number"
+F 7 "10%" H 8950 1600 50  0001 C CNN "Tolerance"
 	1    8950 1600
 	-1   0    0    -1  
 $EndComp
@@ -354,8 +389,10 @@ P 8300 1600
 F 0 "R35" H 8230 1554 50  0000 R CNN
 F 1 "47k" H 8230 1645 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8230 1600 50  0001 C CNN
-F 3 "~" H 8300 1600 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 8300 1600 50  0001 C CNN
 F 4 "5%" H 8300 1600 50  0001 C CNN "Tolerance"
+F 5 "Bourns" H 8300 1600 50  0001 C CNN "Manufacturer"
+F 6 "CR0603-JW-473ELF" H 8300 1600 50  0001 C CNN "Part Number"
 	1    8300 1600
 	-1   0    0    1   
 $EndComp
@@ -374,7 +411,9 @@ P 7700 2050
 F 0 "Q3" H 7904 2096 50  0000 L CNN
 F 1 "FDV301N" H 7904 2005 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7900 2150 50  0001 C CNN
-F 3 "~" H 7700 2050 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/fdv301n-d.pdf" H 7700 2050 50  0001 C CNN
+F 4 "ON Semiconductor" H 7700 2050 50  0001 C CNN "Manufacturer"
+F 5 "FDV301N" H 7700 2050 50  0001 C CNN "Part Number"
 	1    7700 2050
 	1    0    0    -1  
 $EndComp
@@ -394,8 +433,10 @@ P 7250 2050
 F 0 "R31" V 7457 2050 50  0000 C CNN
 F 1 "47" V 7366 2050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7180 2050 50  0001 C CNN
-F 3 "~" H 7250 2050 50  0001 C CNN
-F 4 "5%" H 7250 2050 50  0001 C CNN "Tolerance"
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 7250 2050 50  0001 C CNN
+F 4 "1%" H 7250 2050 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 7250 2050 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603FT47R0" H 7250 2050 50  0001 C CNN "Part Number"
 	1    7250 2050
 	0    -1   -1   0   
 $EndComp
@@ -413,6 +454,8 @@ F 0 "U7" H 4450 4317 50  0000 C CNN
 F 1 "LM63615-Q1PWP" H 4450 4226 50  0000 C CNN
 F 2 "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm" H 4000 2950 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm63615-q1.pdf" H 4450 4300 50  0001 C CNN
+F 4 "Texas Instruments" H 4450 3600 50  0001 C CNN "Manufacturer"
+F 5 "LM63615-Q1PWP" H 4450 3600 50  0001 C CNN "Part Number"
 	1    4450 3600
 	1    0    0    -1  
 $EndComp
@@ -478,8 +521,10 @@ P 3250 3300
 F 0 "R25" V 3457 3300 50  0000 C CNN
 F 1 "150k" V 3366 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3180 3300 50  0001 C CNN
-F 3 "~" H 3250 3300 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3250 3300 50  0001 C CNN
 F 4 "1%" H 3250 3300 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 3250 3300 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603FT150K" H 3250 3300 50  0001 C CNN "Part Number"
 	1    3250 3300
 	0    -1   -1   0   
 $EndComp
@@ -504,7 +549,8 @@ F 0 "L3" V 5940 3150 50  0000 C CNN
 F 1 "15u" V 5849 3150 50  0000 C CNN
 F 2 "Inductor_SMD:L_TDK_SLF10165" H 5750 3150 50  0001 C CNN
 F 3 "https://product.tdk.com/inductor/ind/en/documents/inductor_commercial_power_slf_en.pdf" H 5750 3150 50  0001 C CNN
-F 4 "SLF10165T-150M3R13PF" V 5750 3150 50  0001 C CNN "Model"
+F 4 "SLF10165T-150M3R13PF" V 5750 3150 50  0001 C CNN "Part Number"
+F 5 "TDK" H 5750 3150 50  0001 C CNN "Manufacturer"
 	1    5750 3150
 	0    -1   -1   0   
 $EndComp
@@ -515,8 +561,11 @@ P 5250 3150
 F 0 "C31" V 4998 3150 50  0000 C CNN
 F 1 "220n" V 5089 3150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5288 3000 50  0001 C CNN
-F 3 "~" H 5250 3150 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf?ref_disty=digikey" H 5250 3150 50  0001 C CNN
 F 4 "50 V" H 5250 3150 50  0001 C CNN "Voltage Rating"
+F 5 "TDK" H 5250 3150 50  0001 C CNN "Manufacturer"
+F 6 "C1608X7R1H224K080AB" H 5250 3150 50  0001 C CNN "Part Number"
+F 7 "10%" H 5250 3150 50  0001 C CNN "Tolerance"
 	1    5250 3150
 	0    1    1    0   
 $EndComp
@@ -536,8 +585,11 @@ P 6000 3750
 F 0 "C33" H 6115 3796 50  0000 L CNN
 F 1 "47u" H 6115 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 6038 3600 50  0001 C CNN
-F 3 "~" H 6000 3750 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EC81C476KE15-01.pdf" H 6000 3750 50  0001 C CNN
 F 4 "16 V" H 6000 3750 50  0001 C CNN "Voltage Rating"
+F 5 "Murata" H 6000 3750 50  0001 C CNN "Manufacturer"
+F 6 "GRM32EC81C476KE15K" H 6000 3750 50  0001 C CNN "Part Number"
+F 7 "10%" H 6000 3750 50  0001 C CNN "Tolerance"
 	1    6000 3750
 	1    0    0    -1  
 $EndComp
@@ -556,8 +608,11 @@ P 6400 3750
 F 0 "C35" H 6515 3796 50  0000 L CNN
 F 1 "0.1u" H 6515 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6438 3600 50  0001 C CNN
-F 3 "~" H 6400 3750 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=GMK107B7104KAHT%20%20&u=M" H 6400 3750 50  0001 C CNN
 F 4 "35 V" H 6400 3750 50  0001 C CNN "Voltage Rating"
+F 5 "Taiyo Yuden" H 6400 3750 50  0001 C CNN "Manufacturer"
+F 6 "GMK107B7104KAHT" H 6400 3750 50  0001 C CNN "Part Number"
+F 7 "10%" H 6400 3750 50  0001 C CNN "Tolerance"
 	1    6400 3750
 	1    0    0    -1  
 $EndComp
@@ -576,7 +631,9 @@ P 8650 3250
 F 0 "Q6" V 8992 3250 50  0000 C CNN
 F 1 "DMP2120U" V 8901 3250 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8850 3350 50  0001 C CNN
-F 3 "~" H 8650 3250 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMP2120U.pdf" H 8650 3250 50  0001 C CNN
+F 4 "Diodes Incorporated" H 8650 3250 50  0001 C CNN "Manufacturer"
+F 5 "DMP2120U" H 8650 3250 50  0001 C CNN "Part Number"
 	1    8650 3250
 	0    1    -1   0   
 $EndComp
@@ -591,8 +648,10 @@ P 8050 3550
 F 0 "R34" V 8257 3550 50  0000 C CNN
 F 1 "10k" V 8166 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7980 3550 50  0001 C CNN
-F 3 "~" H 8050 3550 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 8050 3550 50  0001 C CNN
 F 4 "5%" H 8050 3550 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 8050 3550 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603JG10K0" H 8050 3550 50  0001 C CNN "Part Number"
 	1    8050 3550
 	0    -1   -1   0   
 $EndComp
@@ -603,8 +662,11 @@ P 8950 3350
 F 0 "C37" H 8835 3396 50  0000 R CNN
 F 1 "1u" H 8835 3305 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 8988 3200 50  0001 C CNN
-F 3 "~" H 8950 3350 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C105K3RACAUTO.pdf" H 8950 3350 50  0001 C CNN
 F 4 "25 V" H 8950 3350 50  0001 C CNN "Voltage Rating"
+F 5 "KEMET" H 8950 3350 50  0001 C CNN "Manufacturer"
+F 6 "C1206C105K3RACAUTO" H 8950 3350 50  0001 C CNN "Part Number"
+F 7 "10%" H 8950 3350 50  0001 C CNN "Tolerance"
 	1    8950 3350
 	-1   0    0    -1  
 $EndComp
@@ -629,8 +691,10 @@ P 8300 3350
 F 0 "R36" H 8230 3304 50  0000 R CNN
 F 1 "47k" H 8230 3395 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8230 3350 50  0001 C CNN
-F 3 "~" H 8300 3350 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 8300 3350 50  0001 C CNN
 F 4 "5%" H 8300 3350 50  0001 C CNN "Tolerance"
+F 5 "Bourns" H 8300 3350 50  0001 C CNN "Manufacturer"
+F 6 "CR0603-JW-473ELF" H 8300 3350 50  0001 C CNN "Part Number"
 	1    8300 3350
 	-1   0    0    1   
 $EndComp
@@ -654,7 +718,9 @@ P 7700 4050
 F 0 "Q4" H 7904 4096 50  0000 L CNN
 F 1 "FDV301N" H 7904 4005 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7900 4150 50  0001 C CNN
-F 3 "~" H 7700 4050 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/fdv301n-d.pdf" H 7700 4050 50  0001 C CNN
+F 4 "ON Semiconductor" H 7700 4050 50  0001 C CNN "Manufacturer"
+F 5 "FDV301N" H 7700 4050 50  0001 C CNN "Part Number"
 	1    7700 4050
 	1    0    0    -1  
 $EndComp
@@ -667,8 +733,10 @@ P 7250 4050
 F 0 "R32" V 7457 4050 50  0000 C CNN
 F 1 "47" V 7366 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7180 4050 50  0001 C CNN
-F 3 "~" H 7250 4050 50  0001 C CNN
-F 4 "5%" H 7250 4050 50  0001 C CNN "Tolerance"
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 7250 4050 50  0001 C CNN
+F 4 "1%" H 7250 4050 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 7250 4050 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603FT47R0" H 7250 4050 50  0001 C CNN "Part Number"
 	1    7250 4050
 	0    -1   -1   0   
 $EndComp
@@ -687,8 +755,11 @@ P 2600 3850
 F 0 "C24" H 2715 3896 50  0000 L CNN
 F 1 "220n" H 2715 3805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2638 3700 50  0001 C CNN
-F 3 "~" H 2600 3850 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf?ref_disty=digikey" H 2600 3850 50  0001 C CNN
 F 4 "50 V" H 2600 3850 50  0001 C CNN "Voltage Rating"
+F 5 "TDK" H 2600 3850 50  0001 C CNN "Manufacturer"
+F 6 "C1608X7R1H224K080AB" H 2600 3850 50  0001 C CNN "Part Number"
+F 7 "10%" H 2600 3850 50  0001 C CNN "Tolerance"
 	1    2600 3850
 	1    0    0    -1  
 $EndComp
@@ -699,8 +770,11 @@ P 2200 3850
 F 0 "C21" H 2315 3896 50  0000 L CNN
 F 1 "10u" H 2315 3805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 2238 3700 50  0001 C CNN
-F 3 "~" H 2200 3850 50  0001 C CNN
+F 3 "http://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf" H 2200 3850 50  0001 C CNN
 F 4 "35 V" H 2200 3850 50  0001 C CNN "Voltage Rating"
+F 5 "Taiyo Yuden" H 2200 3850 50  0001 C CNN "Manufacturer"
+F 6 "GMK316AB7106KL-TR" H 2200 3850 50  0001 C CNN "Part Number"
+F 7 "10%" H 2200 3850 50  0001 C CNN "Tolerance"
 	1    2200 3850
 	1    0    0    -1  
 $EndComp
@@ -754,8 +828,10 @@ P 3400 3850
 F 0 "R26" H 3330 3804 50  0000 R CNN
 F 1 "39.2k" H 3330 3895 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3330 3850 50  0001 C CNN
-F 3 "~" H 3400 3850 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3400 3850 50  0001 C CNN
 F 4 "1%" H 3400 3850 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 3400 3850 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603FT39K2" H 3400 3850 50  0001 C CNN "Part Number"
 	1    3400 3850
 	-1   0    0    1   
 $EndComp
@@ -770,8 +846,11 @@ P 3050 3850
 F 0 "C25" H 3165 3896 50  0000 L CNN
 F 1 "1u" H 3165 3805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 3088 3700 50  0001 C CNN
-F 3 "~" H 3050 3850 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C105K3RACAUTO.pdf" H 3050 3850 50  0001 C CNN
 F 4 "25 V" H 3050 3850 50  0001 C CNN "Voltage Rating"
+F 5 "KEMET" H 3050 3850 50  0001 C CNN "Manufacturer"
+F 6 "C1206C105K3RACAUTO" H 3050 3850 50  0001 C CNN "Part Number"
+F 7 "10%" H 3050 3850 50  0001 C CNN "Tolerance"
 	1    3050 3850
 	1    0    0    -1  
 $EndComp
@@ -810,6 +889,8 @@ F 0 "U4" H 3100 5617 50  0000 C CNN
 F 1 "NCP700BSN30T1G" H 3100 5526 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3100 5575 50  0001 C CIN
 F 3 "https://www.onsemi.com/pub/Collateral/NCP700B-D.pdf" H 3100 5200 50  0001 C CNN
+F 4 "ON Semiconductor" H 3100 5250 50  0001 C CNN "Manufacturer"
+F 5 "NCP700BSN30T1G" H 3100 5250 50  0001 C CNN "Part Number"
 	1    3100 5250
 	1    0    0    -1  
 $EndComp
@@ -833,8 +914,11 @@ P 2200 5400
 F 0 "C22" H 2315 5446 50  0000 L CNN
 F 1 "1u" H 2315 5355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 2238 5250 50  0001 C CNN
-F 3 "~" H 2200 5400 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C105K3RACAUTO.pdf" H 2200 5400 50  0001 C CNN
 F 4 "25 V" H 2200 5400 50  0001 C CNN "Voltage Rating"
+F 5 "KEMET" H 2200 5400 50  0001 C CNN "Manufacturer"
+F 6 "C1206C105K3RACAUTO" H 2200 5400 50  0001 C CNN "Part Number"
+F 7 "10%" H 2200 5400 50  0001 C CNN "Tolerance"
 	1    2200 5400
 	1    0    0    -1  
 $EndComp
@@ -845,8 +929,11 @@ P 4050 5400
 F 0 "C27" H 4165 5446 50  0000 L CNN
 F 1 "1u" H 4165 5355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4088 5250 50  0001 C CNN
-F 3 "~" H 4050 5400 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C105K3RACAUTO.pdf" H 4050 5400 50  0001 C CNN
 F 4 "25 V" H 4050 5400 50  0001 C CNN "Voltage Rating"
+F 5 "KEMET" H 4050 5400 50  0001 C CNN "Manufacturer"
+F 6 "C1206C105K3RACAUTO" H 4050 5400 50  0001 C CNN "Part Number"
+F 7 "10%" H 4050 5400 50  0001 C CNN "Tolerance"
 	1    4050 5400
 	1    0    0    -1  
 $EndComp
@@ -857,8 +944,11 @@ P 3600 5450
 F 0 "C26" H 3715 5496 50  0000 L CNN
 F 1 "0.1u" H 3715 5405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3638 5300 50  0001 C CNN
-F 3 "~" H 3600 5450 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=GMK107B7104KAHT%20%20&u=M" H 3600 5450 50  0001 C CNN
 F 4 "35 V" H 3600 5450 50  0001 C CNN "Voltage Rating"
+F 5 "Taiyo Yuden" H 3600 5450 50  0001 C CNN "Manufacturer"
+F 6 "GMK107B7104KAHT" H 3600 5450 50  0001 C CNN "Part Number"
+F 7 "10%" H 3600 5450 50  0001 C CNN "Tolerance"
 	1    3600 5450
 	1    0    0    -1  
 $EndComp
@@ -919,6 +1009,9 @@ F 0 "U5" H 3150 6915 50  0000 C CNN
 F 1 "MCP1501T-25E" H 3150 6824 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3100 6800 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf" H 3200 6800 50  0001 C CNN
+F 4 "Microchip" H 3150 6550 50  0001 C CNN "Manufacturer"
+F 5 "MCP1501T-25E/CHY" H 3150 6550 50  0001 C CNN "Part Number"
+F 6 "X" H 3150 6550 50  0001 C CNN "DNP"
 	1    3150 6550
 	1    0    0    -1  
 $EndComp
@@ -937,8 +1030,12 @@ P 2200 7050
 F 0 "C23" H 2315 7096 50  0000 L CNN
 F 1 "1u" H 2315 7005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 2238 6900 50  0001 C CNN
-F 3 "~" H 2200 7050 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C105K3RACAUTO.pdf" H 2200 7050 50  0001 C CNN
 F 4 "25 V" H 2200 7050 50  0001 C CNN "Voltage Rating"
+F 5 "KEMET" H 2200 7050 50  0001 C CNN "Manufacturer"
+F 6 "C1206C105K3RACAUTO" H 2200 7050 50  0001 C CNN "Part Number"
+F 7 "10%" H 2200 7050 50  0001 C CNN "Tolerance"
+F 8 "X" H 2200 7050 50  0001 C CNN "DNP"
 	1    2200 7050
 	1    0    0    -1  
 $EndComp
@@ -960,8 +1057,12 @@ P 4050 7050
 F 0 "C28" H 4165 7096 50  0000 L CNN
 F 1 "1u" H 4165 7005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4088 6900 50  0001 C CNN
-F 3 "~" H 4050 7050 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C105K3RACAUTO.pdf" H 4050 7050 50  0001 C CNN
 F 4 "25 V" H 4050 7050 50  0001 C CNN "Voltage Rating"
+F 5 "KEMET" H 4050 7050 50  0001 C CNN "Manufacturer"
+F 6 "C1206C105K3RACAUTO" H 4050 7050 50  0001 C CNN "Part Number"
+F 7 "10%" H 4050 7050 50  0001 C CNN "Tolerance"
+F 8 "X" H 4050 7050 50  0001 C CNN "DNP"
 	1    4050 7050
 	1    0    0    -1  
 $EndComp
@@ -986,8 +1087,11 @@ P 4050 6700
 F 0 "R27" H 3980 6654 50  0000 R CNN
 F 1 "47" H 3980 6745 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3980 6700 50  0001 C CNN
-F 3 "~" H 4050 6700 50  0001 C CNN
-F 4 "5%" H 4050 6700 50  0001 C CNN "Tolerance"
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 4050 6700 50  0001 C CNN
+F 4 "1%" H 4050 6700 50  0001 C CNN "Tolerance"
+F 5 "X" H 4050 6700 50  0001 C CNN "DNP"
+F 6 "Stackpole Electronics Inc" H 4050 6700 50  0001 C CNN "Manufacturer"
+F 7 "RMCF0603FT47R0" H 4050 6700 50  0001 C CNN "Part Number"
 	1    4050 6700
 	-1   0    0    1   
 $EndComp
@@ -1025,6 +1129,7 @@ F 0 "JP2" H 1950 3113 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 1950 3114 50  0001 C CNN
 F 2 "station:SolderJumper-2_3A" H 1950 3000 50  0001 C CNN
 F 3 "~" H 1950 3000 50  0001 C CNN
+F 4 "X" H 1950 3000 50  0001 C CNN "DNP"
 	1    1950 3000
 	1    0    0    -1  
 $EndComp

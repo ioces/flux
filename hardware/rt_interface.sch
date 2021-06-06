@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -21,11 +21,12 @@ AR Path="/5EA10576/5EA1081A" Ref="L1"  Part="1"
 AR Path="/5EEA69D8/5EA1081A" Ref="L?"  Part="1" 
 AR Path="/5F6BFC9B/5EA1081A" Ref="L?"  Part="1" 
 AR Path="/5EFF2C78/5EA1081A" Ref="L4"  Part="1" 
-F 0 "L4" V 8140 5000 50  0000 C CNN
+F 0 "L1" V 8140 5000 50  0000 C CNN
 F 1 "10u" V 8049 5000 50  0000 C CNN
 F 2 "station:L_Bourns_SRP1265C" H 7950 5000 50  0001 C CNN
-F 3 "~" H 7950 5000 50  0001 C CNN
-F 4 "SRP1265C-100M" H 7950 5000 50  0001 C CNN "Model"
+F 3 "https://www.bourns.com/docs/product-datasheets/SRP1265C.pdf" H 7950 5000 50  0001 C CNN
+F 4 "SRP1265C-100M" H 7950 5000 50  0001 C CNN "Part Number"
+F 5 "Bourns" H 7950 5000 50  0001 C CNN "Manufacturer"
 	1    7950 5000
 	0    -1   -1   0   
 $EndComp
@@ -37,10 +38,13 @@ AR Path="/5EA10576/5EA11F60" Ref="R21"  Part="1"
 AR Path="/5EEA69D8/5EA11F60" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5EA11F60" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5EA11F60" Ref="R57"  Part="1" 
-F 0 "R57" H 10262 5504 50  0000 R CNN
+F 0 "R21" H 10262 5504 50  0000 R CNN
 F 1 "5m" H 10262 5595 50  0000 R CNN
 F 2 "Resistor_SMD:R_0612_1632Metric" V 10280 5550 50  0001 C CNN
-F 3 "~" H 10350 5550 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-csrf.pdf" H 10350 5550 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 10350 5550 50  0001 C CNN "Manufacturer"
+F 5 "CSRF0612FT5L00" H 10350 5550 50  0001 C CNN "Part Number"
+F 6 "1%" H 10350 5550 50  0001 C CNN "Tolerance"
 	1    10350 5550
 	-1   0    0    1   
 $EndComp
@@ -89,11 +93,14 @@ AR Path="/5EA10576/5EA18D9D" Ref="C12"  Part="1"
 AR Path="/5EEA69D8/5EA18D9D" Ref="C?"  Part="1" 
 AR Path="/5F6BFC9B/5EA18D9D" Ref="C?"  Part="1" 
 AR Path="/5EFF2C78/5EA18D9D" Ref="C49"  Part="1" 
-F 0 "C49" H 7765 3996 50  0000 L CNN
+F 0 "C12" H 7765 3996 50  0000 L CNN
 F 1 "10n" H 7765 3905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7688 3800 50  0001 C CNN
-F 3 "~" H 7650 3950 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf?ref_disty=digikey" H 7650 3950 50  0001 C CNN
 F 4 "100 V" H 7650 3950 50  0001 C CNN "Voltage Rating"
+F 5 "TDK" H 7650 3950 50  0001 C CNN "Manufacturer"
+F 6 "C1608X7R2A103K080AA" H 7650 3950 50  0001 C CNN "Part Number"
+F 7 "10%" H 7650 3950 50  0001 C CNN "Tolerance"
 	1    7650 3950
 	1    0    0    -1  
 $EndComp
@@ -105,11 +112,14 @@ AR Path="/5EA10576/5EA1E20D" Ref="C13"  Part="1"
 AR Path="/5EEA69D8/5EA1E20D" Ref="C?"  Part="1" 
 AR Path="/5F6BFC9B/5EA1E20D" Ref="C?"  Part="1" 
 AR Path="/5EFF2C78/5EA1E20D" Ref="C50"  Part="1" 
-F 0 "C50" H 8165 3996 50  0000 L CNN
+F 0 "C13" H 8165 3996 50  0000 L CNN
 F 1 "0.1u" H 8165 3905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8088 3800 50  0001 C CNN
-F 3 "~" H 8050 3950 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012207128.pdf" H 8050 3950 50  0001 C CNN
 F 4 "100 V" H 8050 3950 50  0001 C CNN "Voltage Rating"
+F 5 "Wurth Electronik" H 8050 3950 50  0001 C CNN "Manufacturer"
+F 6 "885012207128" H 8050 3950 50  0001 C CNN "Part Number"
+F 7 "10%" H 8050 3950 50  0001 C CNN "Tolerance"
 	1    8050 3950
 	1    0    0    -1  
 $EndComp
@@ -121,12 +131,14 @@ AR Path="/5EA10576/5EA1E405" Ref="C14"  Part="1"
 AR Path="/5EEA69D8/5EA1E405" Ref="C?"  Part="1" 
 AR Path="/5F6BFC9B/5EA1E405" Ref="C?"  Part="1" 
 AR Path="/5EFF2C78/5EA1E405" Ref="C51"  Part="1" 
-F 0 "C51" H 8565 3996 50  0000 L CNN
+F 0 "C14" H 8565 3996 50  0000 L CNN
 F 1 "2.2u" H 8565 3905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 8488 3800 50  0001 C CNN
-F 3 "~" H 8450 3950 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=HMK325B7225KM-T%20%20&u=M" H 8450 3950 50  0001 C CNN
 F 4 "100 V" H 8450 3950 50  0001 C CNN "Voltage Rating"
-F 5 "C3225X7R2A225K230AB" H 8450 3950 50  0001 C CNN "Model"
+F 5 "HMK325B7225KM-T" H 8450 3950 50  0001 C CNN "Part Number"
+F 6 "Taiyo Yuden" H 8450 3950 50  0001 C CNN "Manufacturer"
+F 7 "10%" H 8450 3950 50  0001 C CNN "Tolerance"
 	1    8450 3950
 	1    0    0    -1  
 $EndComp
@@ -165,12 +177,14 @@ AR Path="/5EA10576/5EA27B91" Ref="R13"  Part="1"
 AR Path="/5EEA69D8/5EA27B91" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5EA27B91" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5EA27B91" Ref="R49"  Part="1" 
-F 0 "R49" V 6193 4700 50  0000 C CNN
+F 0 "R13" V 6193 4700 50  0000 C CNN
 F 1 "2" V 6284 4700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6330 4700 50  0001 C CNN
-F 3 "~" H 6400 4700 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 6400 4700 50  0001 C CNN
 F 4 "5%" H 6400 4700 50  0001 C CNN "Tolerance"
-F 5 "Need to be pulse rated?" H 6400 4700 50  0001 C CNN "Comments"
+F 5 "" H 6400 4700 50  0001 C CNN "DNP"
+F 6 "Panasonic" H 6400 4700 50  0001 C CNN "Manufacturer"
+F 7 "ERJ-PA3J2R0V" H 6400 4700 50  0001 C CNN "Part Number"
 	1    6400 4700
 	0    1    1    0   
 $EndComp
@@ -184,11 +198,14 @@ AR Path="/5EA10576/5EA2F7C0" Ref="C9"  Part="1"
 AR Path="/5EEA69D8/5EA2F7C0" Ref="C?"  Part="1" 
 AR Path="/5F6BFC9B/5EA2F7C0" Ref="C?"  Part="1" 
 AR Path="/5EFF2C78/5EA2F7C0" Ref="C46"  Part="1" 
-F 0 "C46" H 5935 4404 50  0000 R CNN
+F 0 "C9" H 5935 4404 50  0000 R CNN
 F 1 "1u" H 5935 4495 50  0000 R CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 6088 4300 50  0001 C CNN
-F 3 "~" H 6050 4450 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C105K3RACAUTO.pdf" H 6050 4450 50  0001 C CNN
 F 4 "25 V" H 6050 4450 50  0001 C CNN "Voltage Rating"
+F 5 "KEMET" H 6050 4450 50  0001 C CNN "Manufacturer"
+F 6 "C1206C105K3RACAUTO" H 6050 4450 50  0001 C CNN "Part Number"
+F 7 "10%" H 6050 4450 50  0001 C CNN "Tolerance"
 	1    6050 4450
 	-1   0    0    1   
 $EndComp
@@ -200,12 +217,14 @@ AR Path="/5EA10576/5EA2FF4F" Ref="R10"  Part="1"
 AR Path="/5EEA69D8/5EA2FF4F" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5EA2FF4F" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5EA2FF4F" Ref="R46"  Part="1" 
-F 0 "R46" V 4943 3950 50  0000 C CNN
+F 0 "R10" V 4943 3950 50  0000 C CNN
 F 1 "2" V 5034 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5080 3950 50  0001 C CNN
-F 3 "~" H 5150 3950 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 5150 3950 50  0001 C CNN
 F 4 "5%" H 5150 3950 50  0001 C CNN "Tolerance"
-F 5 "Need to be pulse rated?" H 5150 3950 50  0001 C CNN "Comments"
+F 5 "" H 5150 3950 50  0001 C CNN "DNP"
+F 6 "Panasonic" H 5150 3950 50  0001 C CNN "Manufacturer"
+F 7 "ERJ-PA3J2R0V" H 5150 3950 50  0001 C CNN "Part Number"
 	1    5150 3950
 	0    1    1    0   
 $EndComp
@@ -222,11 +241,14 @@ AR Path="/5EA10576/5EA3570B" Ref="C6"  Part="1"
 AR Path="/5EEA69D8/5EA3570B" Ref="C?"  Part="1" 
 AR Path="/5F6BFC9B/5EA3570B" Ref="C?"  Part="1" 
 AR Path="/5EFF2C78/5EA3570B" Ref="C43"  Part="1" 
-F 0 "C43" H 4215 4196 50  0000 L CNN
+F 0 "C6" H 4215 4196 50  0000 L CNN
 F 1 "0.1u" H 4215 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4138 4000 50  0001 C CNN
-F 3 "~" H 4100 4150 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=GMK107B7104KAHT%20%20&u=M" H 4100 4150 50  0001 C CNN
 F 4 "35 V" H 4100 4150 50  0001 C CNN "Voltage Rating"
+F 5 "Taiyo Yuden" H 4100 4150 50  0001 C CNN "Manufacturer"
+F 6 "GMK107B7104KAHT" H 4100 4150 50  0001 C CNN "Part Number"
+F 7 "10%" H 4100 4150 50  0001 C CNN "Tolerance"
 	1    4100 4150
 	1    0    0    -1  
 $EndComp
@@ -238,11 +260,14 @@ AR Path="/5EA10576/5EA35D97" Ref="C7"  Part="1"
 AR Path="/5EEA69D8/5EA35D97" Ref="C?"  Part="1" 
 AR Path="/5F6BFC9B/5EA35D97" Ref="C?"  Part="1" 
 AR Path="/5EFF2C78/5EA35D97" Ref="C44"  Part="1" 
-F 0 "C44" H 4615 4196 50  0000 L CNN
+F 0 "C7" H 4615 4196 50  0000 L CNN
 F 1 "10n" H 4615 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4538 4000 50  0001 C CNN
-F 3 "~" H 4500 4150 50  0001 C CNN
-F 4 "35 V" H 4500 4150 50  0001 C CNN "Voltage Rating"
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf?ref_disty=digikey" H 4500 4150 50  0001 C CNN
+F 4 "100 V" H 4500 4150 50  0001 C CNN "Voltage Rating"
+F 5 "TDK" H 4500 4150 50  0001 C CNN "Manufacturer"
+F 6 "C1608X7R2A103K080AA" H 4500 4150 50  0001 C CNN "Part Number"
+F 7 "10%" H 4500 4150 50  0001 C CNN "Tolerance"
 	1    4500 4150
 	1    0    0    -1  
 $EndComp
@@ -277,11 +302,13 @@ AR Path="/5EA10576/5EA90FD0" Ref="R17"  Part="1"
 AR Path="/5EEA69D8/5EA90FD0" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5EA90FD0" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5EA90FD0" Ref="R53"  Part="1" 
-F 0 "R53" H 7030 4654 50  0000 R CNN
+F 0 "R17" H 7030 4654 50  0000 R CNN
 F 1 "47k" H 7030 4745 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7030 4700 50  0001 C CNN
-F 3 "~" H 7100 4700 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 7100 4700 50  0001 C CNN
 F 4 "5%" H 7100 4700 50  0001 C CNN "Tolerance"
+F 5 "Bourns" H 7100 4700 50  0001 C CNN "Manufacturer"
+F 6 "CR0603-JW-473ELF" H 7100 4700 50  0001 C CNN "Part Number"
 	1    7100 4700
 	-1   0    0    1   
 $EndComp
@@ -303,11 +330,13 @@ AR Path="/5EA10576/5EA9C00F" Ref="R18"  Part="1"
 AR Path="/5EEA69D8/5EA9C00F" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5EA9C00F" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5EA9C00F" Ref="R54"  Part="1" 
-F 0 "R54" H 7030 5754 50  0000 R CNN
+F 0 "R18" H 7030 5754 50  0000 R CNN
 F 1 "47k" H 7030 5845 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7030 5800 50  0001 C CNN
-F 3 "~" H 7100 5800 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 7100 5800 50  0001 C CNN
 F 4 "5%" H 7100 5800 50  0001 C CNN "Tolerance"
+F 5 "Bourns" H 7100 5800 50  0001 C CNN "Manufacturer"
+F 6 "CR0603-JW-473ELF" H 7100 5800 50  0001 C CNN "Part Number"
 	1    7100 5800
 	-1   0    0    1   
 $EndComp
@@ -327,12 +356,14 @@ AR Path="/5EA10576/5EAA01B9" Ref="R14"  Part="1"
 AR Path="/5EEA69D8/5EAA01B9" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5EAA01B9" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5EAA01B9" Ref="R50"  Part="1" 
-F 0 "R50" V 6193 5200 50  0000 C CNN
+F 0 "R14" V 6193 5200 50  0000 C CNN
 F 1 "2" V 6284 5200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6330 5200 50  0001 C CNN
-F 3 "~" H 6400 5200 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 6400 5200 50  0001 C CNN
 F 4 "5%" H 6400 5200 50  0001 C CNN "Tolerance"
-F 5 "Need to be pulse rated?" H 6400 5200 50  0001 C CNN "Comments"
+F 5 "" H 6400 5200 50  0001 C CNN "DNP"
+F 6 "Panasonic" H 6400 5200 50  0001 C CNN "Manufacturer"
+F 7 "ERJ-PA3J2R0V" H 6400 5200 50  0001 C CNN "Part Number"
 	1    6400 5200
 	0    1    1    0   
 $EndComp
@@ -354,11 +385,14 @@ AR Path="/5EA10576/5EACE7A8" Ref="C19"  Part="1"
 AR Path="/5EEA69D8/5EACE7A8" Ref="C?"  Part="1" 
 AR Path="/5F6BFC9B/5EACE7A8" Ref="C?"  Part="1" 
 AR Path="/5EFF2C78/5EACE7A8" Ref="C56"  Part="1" 
-F 0 "C56" H 10015 1696 50  0000 L CNN
+F 0 "C19" H 10015 1696 50  0000 L CNN
 F 1 "0.1u" H 10015 1605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9938 1500 50  0001 C CNN
-F 3 "~" H 9900 1650 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=GMK107B7104KAHT%20%20&u=M" H 9900 1650 50  0001 C CNN
 F 4 "35 V" H 9900 1650 50  0001 C CNN "Voltage Rating"
+F 5 "Taiyo Yuden" H 9900 1650 50  0001 C CNN "Manufacturer"
+F 6 "GMK107B7104KAHT" H 9900 1650 50  0001 C CNN "Part Number"
+F 7 "10%" H 9900 1650 50  0001 C CNN "Tolerance"
 	1    9900 1650
 	1    0    0    -1  
 $EndComp
@@ -370,11 +404,14 @@ AR Path="/5EA10576/5EACEE13" Ref="C16"  Part="1"
 AR Path="/5EEA69D8/5EACEE13" Ref="C?"  Part="1" 
 AR Path="/5F6BFC9B/5EACEE13" Ref="C?"  Part="1" 
 AR Path="/5EFF2C78/5EACEE13" Ref="C53"  Part="1" 
-F 0 "C53" H 9615 1696 50  0000 L CNN
+F 0 "C16" H 9615 1696 50  0000 L CNN
 F 1 "1u" H 9615 1605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 9538 1500 50  0001 C CNN
-F 3 "~" H 9500 1650 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C105K3RACAUTO.pdf" H 9500 1650 50  0001 C CNN
 F 4 "25 V" H 9500 1650 50  0001 C CNN "Voltage Rating"
+F 5 "KEMET" H 9500 1650 50  0001 C CNN "Manufacturer"
+F 6 "C1206C105K3RACAUTO" H 9500 1650 50  0001 C CNN "Part Number"
+F 7 "10%" H 9500 1650 50  0001 C CNN "Tolerance"
 	1    9500 1650
 	1    0    0    -1  
 $EndComp
@@ -421,10 +458,12 @@ AR Path="/5EA10576/5EB81B50" Ref="U1"  Part="1"
 AR Path="/5EEA69D8/5EB81B50" Ref="U?"  Part="1" 
 AR Path="/5F6BFC9B/5EB81B50" Ref="U?"  Part="1" 
 AR Path="/5EFF2C78/5EB81B50" Ref="U8"  Part="1" 
-F 0 "U8" H 1750 7250 50  0000 C CNN
+F 0 "U1" H 1750 7250 50  0000 C CNN
 F 1 "NCS213" H 1850 7150 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1600 6750 50  0001 C CNN
-F 3 "" H 1600 6750 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/ncs210r-d.pdf" H 1600 6750 50  0001 C CNN
+F 4 "ON Semiconductor" H 1600 6750 50  0001 C CNN "Manufacturer"
+F 5 "NCS213RSQT2G" H 1600 6750 50  0001 C CNN "Part Number"
 	1    1600 6750
 	1    0    0    -1  
 $EndComp
@@ -465,11 +504,13 @@ AR Path="/5EA10576/5EBB27D4" Ref="R5"  Part="1"
 AR Path="/5EEA69D8/5EBB27D4" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5EBB27D4" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5EBB27D4" Ref="R41"  Part="1" 
-F 0 "R41" V 3115 6750 50  0000 C CNN
+F 0 "R5" V 3115 6750 50  0000 C CNN
 F 1 "115" V 3206 6750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2930 6750 50  0001 C CNN
-F 3 "~" H 3000 6750 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3000 6750 50  0001 C CNN
 F 4 "1%" H 3000 6750 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 3000 6750 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603FT115R" H 3000 6750 50  0001 C CNN "Part Number"
 	1    3000 6750
 	0    1    1    0   
 $EndComp
@@ -481,11 +522,13 @@ AR Path="/5EA10576/5EBB2CF2" Ref="R3"  Part="1"
 AR Path="/5EEA69D8/5EBB2CF2" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5EBB2CF2" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5EBB2CF2" Ref="R39"  Part="1" 
-F 0 "R39" H 2130 6954 50  0000 R CNN
+F 0 "R3" H 2130 6954 50  0000 R CNN
 F 1 "10.5k" H 2130 7045 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2130 7000 50  0001 C CNN
-F 3 "~" H 2200 7000 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 2200 7000 50  0001 C CNN
 F 4 "1%" H 2200 7000 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 2200 7000 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603FT10K5" H 2200 7000 50  0001 C CNN "Part Number"
 	1    2200 7000
 	-1   0    0    1   
 $EndComp
@@ -511,10 +554,11 @@ AR Path="/5EA10576/5EBCC0A8" Ref="C4"  Part="1"
 AR Path="/5EEA69D8/5EBCC0A8" Ref="C?"  Part="1" 
 AR Path="/5F6BFC9B/5EBCC0A8" Ref="C?"  Part="1" 
 AR Path="/5EFF2C78/5EBCC0A8" Ref="C41"  Part="1" 
-F 0 "C41" H 2485 6954 50  0000 R CNN
-F 1 "DNF" H 2485 7045 50  0000 R CNN
+F 0 "C4" H 2485 6954 50  0000 R CNN
+F 1 "?" H 2485 7045 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2638 6850 50  0001 C CNN
 F 3 "~" H 2600 7000 50  0001 C CNN
+F 4 "X" H 2600 7000 50  0001 C CNN "DNP"
 	1    2600 7000
 	-1   0    0    1   
 $EndComp
@@ -542,11 +586,14 @@ AR Path="/5EA10576/5ED273E7" Ref="C3"  Part="1"
 AR Path="/5EEA69D8/5ED273E7" Ref="C?"  Part="1" 
 AR Path="/5F6BFC9B/5ED273E7" Ref="C?"  Part="1" 
 AR Path="/5EFF2C78/5ED273E7" Ref="C40"  Part="1" 
-F 0 "C40" H 2465 5996 50  0000 L CNN
+F 0 "C3" H 2465 5996 50  0000 L CNN
 F 1 "0.1u" H 2465 5905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2388 5800 50  0001 C CNN
-F 3 "~" H 2350 5950 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=GMK107B7104KAHT%20%20&u=M" H 2350 5950 50  0001 C CNN
 F 4 "35 V" H 2350 5950 50  0001 C CNN "Voltage Rating"
+F 5 "Taiyo Yuden" H 2350 5950 50  0001 C CNN "Manufacturer"
+F 6 "GMK107B7104KAHT" H 2350 5950 50  0001 C CNN "Part Number"
+F 7 "10%" H 2350 5950 50  0001 C CNN "Tolerance"
 	1    2350 5950
 	1    0    0    -1  
 $EndComp
@@ -558,11 +605,14 @@ AR Path="/5EA10576/5ED273F1" Ref="C2"  Part="1"
 AR Path="/5EEA69D8/5ED273F1" Ref="C?"  Part="1" 
 AR Path="/5F6BFC9B/5ED273F1" Ref="C?"  Part="1" 
 AR Path="/5EFF2C78/5ED273F1" Ref="C39"  Part="1" 
-F 0 "C39" H 2015 5996 50  0000 L CNN
+F 0 "C2" H 2015 5996 50  0000 L CNN
 F 1 "1u" H 2015 5905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 1938 5800 50  0001 C CNN
-F 3 "~" H 1900 5950 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C105K3RACAUTO.pdf" H 1900 5950 50  0001 C CNN
 F 4 "25 V" H 1900 5950 50  0001 C CNN "Voltage Rating"
+F 5 "KEMET" H 1900 5950 50  0001 C CNN "Manufacturer"
+F 6 "C1206C105K3RACAUTO" H 1900 5950 50  0001 C CNN "Part Number"
+F 7 "10%" H 1900 5950 50  0001 C CNN "Tolerance"
 	1    1900 5950
 	1    0    0    -1  
 $EndComp
@@ -614,11 +664,13 @@ AR Path="/5EA10576/5ED3F0C2" Ref="R4"  Part="1"
 AR Path="/5EEA69D8/5ED3F0C2" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5ED3F0C2" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5ED3F0C2" Ref="R40"  Part="1" 
-F 0 "R40" V 3065 1750 50  0000 C CNN
+F 0 "R4" V 3065 1750 50  0000 C CNN
 F 1 "115" V 3156 1750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2880 1750 50  0001 C CNN
-F 3 "~" H 2950 1750 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 2950 1750 50  0001 C CNN
 F 4 "1%" H 2950 1750 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 2950 1750 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603FT115R" H 2950 1750 50  0001 C CNN "Part Number"
 	1    2950 1750
 	0    1    1    0   
 $EndComp
@@ -647,11 +699,13 @@ AR Path="/5EA10576/5ED5A171" Ref="R6"  Part="1"
 AR Path="/5EEA69D8/5ED5A171" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5ED5A171" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5ED5A171" Ref="R42"  Part="1" 
-F 0 "R42" V 3615 2050 50  0000 C CNN
+F 0 "R6" V 3615 2050 50  0000 C CNN
 F 1 "17.4k" V 3706 2050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3430 2050 50  0001 C CNN
-F 3 "~" H 3500 2050 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 3500 2050 50  0001 C CNN
 F 4 "1%" H 3500 2050 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 3500 2050 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603FT17K4" H 3500 2050 50  0001 C CNN "Part Number"
 	1    3500 2050
 	0    1    1    0   
 $EndComp
@@ -669,11 +723,13 @@ AR Path="/5EA10576/5ED8F61D" Ref="R7"  Part="1"
 AR Path="/5EEA69D8/5ED8F61D" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5ED8F61D" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5ED8F61D" Ref="R43"  Part="1" 
-F 0 "R43" V 3615 2400 50  0000 C CNN
+F 0 "R7" V 3615 2400 50  0000 C CNN
 F 1 "2M" V 3706 2400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3430 2400 50  0001 C CNN
-F 3 "~" H 3500 2400 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3500 2400 50  0001 C CNN
 F 4 "1%" H 3500 2400 50  0001 C CNN "Tolerance"
+F 5 "Panasonic" H 3500 2400 50  0001 C CNN "Manufacturer"
+F 6 "ERJ-3EKF2004V" H 3500 2400 50  0001 C CNN "Part Number"
 	1    3500 2400
 	0    1    1    0   
 $EndComp
@@ -695,11 +751,13 @@ AR Path="/5EA10576/5ED9BC01" Ref="R1"  Part="1"
 AR Path="/5EEA69D8/5ED9BC01" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5ED9BC01" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5ED9BC01" Ref="R37"  Part="1" 
-F 0 "R37" H 1230 1104 50  0000 R CNN
+F 0 "R1" H 1230 1104 50  0000 R CNN
 F 1 "59k" H 1230 1195 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1230 1150 50  0001 C CNN
-F 3 "~" H 1300 1150 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1300 1150 50  0001 C CNN
 F 4 "1%" H 1300 1150 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 1300 1150 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603FT59K0" H 1300 1150 50  0001 C CNN "Part Number"
 	1    1300 1150
 	-1   0    0    1   
 $EndComp
@@ -738,11 +796,13 @@ AR Path="/5EA10576/5ED9B2DE" Ref="R2"  Part="1"
 AR Path="/5EEA69D8/5ED9B2DE" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5ED9B2DE" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5ED9B2DE" Ref="R38"  Part="1" 
-F 0 "R38" H 1370 1596 50  0000 L CNN
+F 0 "R2" H 1370 1596 50  0000 L CNN
 F 1 "24.3k" H 1370 1505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1230 1550 50  0001 C CNN
-F 3 "~" H 1300 1550 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1300 1550 50  0001 C CNN
 F 4 "1%" H 1300 1550 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 1300 1550 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603FT24K3" H 1300 1550 50  0001 C CNN "Part Number"
 	1    1300 1550
 	1    0    0    -1  
 $EndComp
@@ -759,11 +819,14 @@ AR Path="/5EA10576/5EF02431" Ref="C17"  Part="1"
 AR Path="/5EEA69D8/5EF02431" Ref="C?"  Part="1" 
 AR Path="/5F6BFC9B/5EF02431" Ref="C?"  Part="1" 
 AR Path="/5EFF2C78/5EF02431" Ref="C54"  Part="1" 
-F 0 "C54" H 9315 5596 50  0000 L CNN
-F 1 "160n" H 9315 5505 50  0000 L CNN
+F 0 "C17" H 9315 5596 50  0000 L CNN
+F 1 "150n" H 9315 5505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9238 5400 50  0001 C CNN
-F 3 "~" H 9200 5550 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206072.pdf" H 9200 5550 50  0001 C CNN
 F 4 "25 V" H 9200 5550 50  0001 C CNN "Voltage Rating"
+F 5 "Wurth Electronik" H 9200 5550 50  0001 C CNN "Manufacturer"
+F 6 "885012206072" H 9200 5550 50  0001 C CNN "Part Number"
+F 7 "10%" H 9200 5550 50  0001 C CNN "Tolerance"
 	1    9200 5550
 	1    0    0    -1  
 $EndComp
@@ -775,11 +838,13 @@ AR Path="/5EA10576/5EF02AF5" Ref="R19"  Part="1"
 AR Path="/5EEA69D8/5EF02AF5" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5EF02AF5" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5EF02AF5" Ref="R55"  Part="1" 
-F 0 "R55" V 9193 5350 50  0000 C CNN
+F 0 "R19" V 9193 5350 50  0000 C CNN
 F 1 "10" V 9284 5350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9330 5350 50  0001 C CNN
-F 3 "~" H 9400 5350 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 9400 5350 50  0001 C CNN
 F 4 "1%" H 9400 5350 50  0001 C CNN "Tolerance"
+F 5 "Bourns" H 9400 5350 50  0001 C CNN "Manufacturer"
+F 6 "CR0603-FX-10R0ELF" H 9400 5350 50  0001 C CNN "Part Number"
 	1    9400 5350
 	0    1    1    0   
 $EndComp
@@ -791,11 +856,13 @@ AR Path="/5EA10576/5EF03149" Ref="R20"  Part="1"
 AR Path="/5EEA69D8/5EF03149" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5EF03149" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5EF03149" Ref="R56"  Part="1" 
-F 0 "R56" V 9550 5750 50  0000 C CNN
+F 0 "R20" V 9550 5750 50  0000 C CNN
 F 1 "10" V 9650 5750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9330 5750 50  0001 C CNN
-F 3 "~" H 9400 5750 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 9400 5750 50  0001 C CNN
 F 4 "1%" H 9400 5750 50  0001 C CNN "Tolerance"
+F 5 "Bourns" H 9400 5750 50  0001 C CNN "Manufacturer"
+F 6 "CR0603-FX-10R0ELF" H 9400 5750 50  0001 C CNN "Part Number"
 	1    9400 5750
 	0    1    1    0   
 $EndComp
@@ -826,10 +893,12 @@ P 3500 1650
 AR Path="/5EA10576/5EFDDF08" Ref="U2"  Part="1" 
 AR Path="/5F6BFC9B/5EFDDF08" Ref="U?"  Part="1" 
 AR Path="/5EFF2C78/5EFDDF08" Ref="U9"  Part="1" 
-F 0 "U9" H 3500 2017 50  0000 C CNN
+F 0 "U2" H 3500 2017 50  0000 C CNN
 F 1 "MAX44246" H 3500 1926 50  0000 C CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 3500 1650 50  0001 C CNN
-F 3 "~" H 3500 1650 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX44241-MAX44246.pdf" H 3500 1650 50  0001 C CNN
+F 4 "Maxim" H 3500 1650 50  0001 C CNN "Manufacturer"
+F 5 "MAX44246AUA+" H 3500 1650 50  0001 C CNN "Part Number"
 	1    3500 1650
 	1    0    0    -1  
 $EndComp
@@ -840,10 +909,12 @@ P 7950 1650
 AR Path="/5EA10576/5EFDF4E4" Ref="U2"  Part="2" 
 AR Path="/5F6BFC9B/5EFDF4E4" Ref="U?"  Part="2" 
 AR Path="/5EFF2C78/5EFDF4E4" Ref="U9"  Part="2" 
-F 0 "U9" H 7950 2017 50  0000 C CNN
+F 0 "U2" H 7950 2017 50  0000 C CNN
 F 1 "MAX44246" H 7950 1926 50  0000 C CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 7950 1650 50  0001 C CNN
-F 3 "~" H 7950 1650 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX44241-MAX44246.pdf" H 7950 1650 50  0001 C CNN
+F 4 "Maxim" H 7950 1650 50  0001 C CNN "Manufacturer"
+F 5 "MAX44246AUA+" H 7950 1650 50  0001 C CNN "Part Number"
 	2    7950 1650
 	1    0    0    -1  
 $EndComp
@@ -854,10 +925,12 @@ P 10350 1650
 AR Path="/5EA10576/5EFDFF9F" Ref="U2"  Part="3" 
 AR Path="/5F6BFC9B/5EFDFF9F" Ref="U?"  Part="3" 
 AR Path="/5EFF2C78/5EFDFF9F" Ref="U9"  Part="3" 
-F 0 "U9" H 10308 1696 50  0000 L CNN
+F 0 "U2" H 10308 1696 50  0000 L CNN
 F 1 "MAX44246" H 10308 1605 50  0000 L CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 10350 1650 50  0001 C CNN
-F 3 "~" H 10350 1650 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX44241-MAX44246.pdf" H 10350 1650 50  0001 C CNN
+F 4 "Maxim" H 10350 1650 50  0001 C CNN "Manufacturer"
+F 5 "MAX44246AUA+" H 10350 1650 50  0001 C CNN "Part Number"
 	3    10350 1650
 	1    0    0    -1  
 $EndComp
@@ -891,11 +964,13 @@ AR Path="/5EA10576/5F0AE501" Ref="R15"  Part="1"
 AR Path="/5EEA69D8/5F0AE501" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5F0AE501" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5F0AE501" Ref="R51"  Part="1" 
-F 0 "R51" V 6943 2050 50  0000 C CNN
+F 0 "R15" V 6943 2050 50  0000 C CNN
 F 1 "33k" V 7034 2050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7080 2050 50  0001 C CNN
-F 3 "~" H 7150 2050 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 7150 2050 50  0001 C CNN
 F 4 "1%" H 7150 2050 50  0001 C CNN "Tolerance"
+F 5 "Bourns" H 7150 2050 50  0001 C CNN "Manufacturer"
+F 6 "CR0603-FX-3302ELF" H 7150 2050 50  0001 C CNN "Part Number"
 	1    7150 2050
 	0    1    1    0   
 $EndComp
@@ -907,11 +982,13 @@ AR Path="/5EA10576/5F0AE88B" Ref="R16"  Part="1"
 AR Path="/5EEA69D8/5F0AE88B" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5F0AE88B" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5F0AE88B" Ref="R52"  Part="1" 
-F 0 "R52" V 6943 2450 50  0000 C CNN
+F 0 "R16" V 6943 2450 50  0000 C CNN
 F 1 "10.5k" V 7034 2450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7080 2450 50  0001 C CNN
-F 3 "~" H 7150 2450 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 7150 2450 50  0001 C CNN
 F 4 "1%" H 7150 2450 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 7150 2450 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603FT10K5" H 7150 2450 50  0001 C CNN "Part Number"
 	1    7150 2450
 	0    1    1    0   
 $EndComp
@@ -933,11 +1010,14 @@ AR Path="/5EA10576/5F10ACCD" Ref="C10"  Part="1"
 AR Path="/5EEA69D8/5F10ACCD" Ref="C?"  Part="1" 
 AR Path="/5F6BFC9B/5F10ACCD" Ref="C?"  Part="1" 
 AR Path="/5EFF2C78/5F10ACCD" Ref="C47"  Part="1" 
-F 0 "C47" H 7015 2696 50  0000 L CNN
+F 0 "C10" H 7015 2696 50  0000 L CNN
 F 1 "360p" H 7015 2605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6938 2500 50  0001 C CNN
-F 3 "~" H 6900 2650 50  0001 C CNN
-F 4 "25 V" H 6900 2650 50  0001 C CNN "Voltage Rating"
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C361J5GACTU.pdf" H 6900 2650 50  0001 C CNN
+F 4 "50 V" H 6900 2650 50  0001 C CNN "Voltage Rating"
+F 5 "KEMET" H 6900 2650 50  0001 C CNN "Manufacturer"
+F 6 "C0603C361J5GAC7867" H 6900 2650 50  0001 C CNN "Part Number"
+F 7 "5%" H 6900 2650 50  0001 C CNN "Tolerance"
 	1    6900 2650
 	1    0    0    -1  
 $EndComp
@@ -976,11 +1056,13 @@ AR Path="/5EA10576/5F12845F" Ref="R11"  Part="1"
 AR Path="/5EEA69D8/5F12845F" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5F12845F" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5F12845F" Ref="R47"  Part="1" 
-F 0 "R47" V 6193 2050 50  0000 C CNN
+F 0 "R11" V 6193 2050 50  0000 C CNN
 F 1 "205k" V 6284 2050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6330 2050 50  0001 C CNN
-F 3 "~" H 6400 2050 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 6400 2050 50  0001 C CNN
 F 4 "1%" H 6400 2050 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 6400 2050 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603FT205K" H 6400 2050 50  0001 C CNN "Part Number"
 	1    6400 2050
 	0    1    1    0   
 $EndComp
@@ -992,11 +1074,13 @@ AR Path="/5EA10576/5F1287B3" Ref="R12"  Part="1"
 AR Path="/5EEA69D8/5F1287B3" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5F1287B3" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5F1287B3" Ref="R48"  Part="1" 
-F 0 "R48" H 6719 2404 50  0000 L CNN
+F 0 "R12" H 6719 2404 50  0000 L CNN
 F 1 "10.5k" H 6719 2495 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6580 2450 50  0001 C CNN
-F 3 "~" H 6650 2450 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 6650 2450 50  0001 C CNN
 F 4 "1%" H 6650 2450 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 6650 2450 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603FT10K5" H 6650 2450 50  0001 C CNN "Part Number"
 	1    6650 2450
 	-1   0    0    1   
 $EndComp
@@ -1021,10 +1105,11 @@ AR Path="/5EA10576/5F201D12" Ref="C8"  Part="1"
 AR Path="/5EEA69D8/5F201D12" Ref="C?"  Part="1" 
 AR Path="/5F6BFC9B/5F201D12" Ref="C?"  Part="1" 
 AR Path="/5EFF2C78/5F201D12" Ref="C45"  Part="1" 
-F 0 "C45" H 5585 1704 50  0000 R CNN
-F 1 "DNF" H 5585 1795 50  0000 R CNN
+F 0 "C8" H 5585 1704 50  0000 R CNN
+F 1 "?" H 5585 1795 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5738 1600 50  0001 C CNN
 F 3 "~" H 5700 1750 50  0001 C CNN
+F 4 "X" H 5700 1750 50  0001 C CNN "DNP"
 	1    5700 1750
 	-1   0    0    1   
 $EndComp
@@ -1047,11 +1132,13 @@ AR Path="/5EA10576/5F291837" Ref="R8"  Part="1"
 AR Path="/5EEA69D8/5F291837" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5F291837" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5F291837" Ref="R44"  Part="1" 
-F 0 "R44" H 5180 1304 50  0000 R CNN
+F 0 "R8" H 5180 1304 50  0000 R CNN
 F 1 "22.1k" H 5180 1395 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5180 1350 50  0001 C CNN
-F 3 "~" H 5250 1350 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 5250 1350 50  0001 C CNN
 F 4 "1%" H 5250 1350 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 5250 1350 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603FT22K1" H 5250 1350 50  0001 C CNN "Part Number"
 	1    5250 1350
 	-1   0    0    1   
 $EndComp
@@ -1088,11 +1175,13 @@ AR Path="/5EA10576/5F291850" Ref="R9"  Part="1"
 AR Path="/5EEA69D8/5F291850" Ref="R?"  Part="1" 
 AR Path="/5F6BFC9B/5F291850" Ref="R?"  Part="1" 
 AR Path="/5EFF2C78/5F291850" Ref="R45"  Part="1" 
-F 0 "R45" H 5320 1796 50  0000 L CNN
+F 0 "R9" H 5320 1796 50  0000 L CNN
 F 1 "18.2k" H 5320 1705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5180 1750 50  0001 C CNN
-F 3 "~" H 5250 1750 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 5250 1750 50  0001 C CNN
 F 4 "1%" H 5250 1750 50  0001 C CNN "Tolerance"
+F 5 "Stackpole Electronics Inc" H 5250 1750 50  0001 C CNN "Manufacturer"
+F 6 "RMCF0603FT18K2" H 5250 1750 50  0001 C CNN "Part Number"
 	1    5250 1750
 	1    0    0    -1  
 $EndComp
@@ -1121,10 +1210,11 @@ AR Path="/5EA10576/5F37D154" Ref="C1"  Part="1"
 AR Path="/5EEA69D8/5F37D154" Ref="C?"  Part="1" 
 AR Path="/5F6BFC9B/5F37D154" Ref="C?"  Part="1" 
 AR Path="/5EFF2C78/5F37D154" Ref="C38"  Part="1" 
-F 0 "C38" H 1635 1504 50  0000 R CNN
-F 1 "DNF" H 1635 1595 50  0000 R CNN
+F 0 "C1" H 1635 1504 50  0000 R CNN
+F 1 "?" H 1635 1595 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1788 1400 50  0001 C CNN
 F 3 "~" H 1750 1550 50  0001 C CNN
+F 4 "X" H 1750 1550 50  0001 C CNN "DNP"
 	1    1750 1550
 	-1   0    0    1   
 $EndComp
@@ -1155,11 +1245,14 @@ AR Path="/5EA10576/5F0AE17C" Ref="C11"  Part="1"
 AR Path="/5EEA69D8/5F0AE17C" Ref="C?"  Part="1" 
 AR Path="/5F6BFC9B/5F0AE17C" Ref="C?"  Part="1" 
 AR Path="/5EFF2C78/5F0AE17C" Ref="C48"  Part="1" 
-F 0 "C48" H 7565 2296 50  0000 L CNN
+F 0 "C11" H 7565 2296 50  0000 L CNN
 F 1 "82p" H 7565 2205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7488 2100 50  0001 C CNN
-F 3 "~" H 7450 2250 50  0001 C CNN
-F 4 "25 V" H 7450 2250 50  0001 C CNN "Voltage Rating"
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C820J5GACTU.pdf" H 7450 2250 50  0001 C CNN
+F 4 "50 V" H 7450 2250 50  0001 C CNN "Voltage Rating"
+F 5 "KEMET" H 7450 2250 50  0001 C CNN "Manufacturer"
+F 6 "C0603C820J5GACTU" H 7450 2250 50  0001 C CNN "Part Number"
+F 7 "5%" H 7450 2250 50  0001 C CNN "Tolerance"
 	1    7450 2250
 	1    0    0    -1  
 $EndComp
@@ -1198,10 +1291,12 @@ P 5250 4750
 AR Path="/5EA10576/5F528606" Ref="U3"  Part="1" 
 AR Path="/5F6BFC9B/5F528606" Ref="U?"  Part="1" 
 AR Path="/5EFF2C78/5F528606" Ref="U10"  Part="1" 
-F 0 "U10" H 5250 5317 50  0000 C CNN
+F 0 "U3" H 5250 5317 50  0000 C CNN
 F 1 "LM5109BSD" H 5250 5226 50  0000 C CNN
 F 2 "Package_SON:WSON-8_4x4mm_P0.8mm" H 5250 4150 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm5109b.pdf" H 5250 4750 50  0001 C CNN
+F 4 "Texas Instruments" H 5250 4750 50  0001 C CNN "Manufacturer"
+F 5 "LM5109BSD/NOPB" H 5250 4750 50  0001 C CNN "Part Number"
 	1    5250 4750
 	1    0    0    -1  
 $EndComp
@@ -1288,10 +1383,12 @@ P 8400 5550
 AR Path="/5EA10576/5ED6F062" Ref="D2"  Part="1" 
 AR Path="/5F6BFC9B/5ED6F062" Ref="D?"  Part="1" 
 AR Path="/5EFF2C78/5ED6F062" Ref="D4"  Part="1" 
-F 0 "D4" V 8354 5630 50  0000 L CNN
+F 0 "D2" V 8354 5630 50  0000 L CNN
 F 1 "SMCJ43A" V 8445 5630 50  0000 L CNN
 F 2 "Diode_SMD:D_SMC" H 8400 5550 50  0001 C CNN
-F 3 "~" H 8400 5550 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smcj_hr_datasheet.pdf.pdf" H 8400 5550 50  0001 C CNN
+F 4 "Littelfuse" H 8400 5550 50  0001 C CNN "Manufacturer"
+F 5 "SMCJ43A" H 8400 5550 50  0001 C CNN "Part Number"
 	1    8400 5550
 	0    1    1    0   
 $EndComp
@@ -1314,10 +1411,12 @@ P 5550 3950
 AR Path="/5EA10576/5EDB5022" Ref="D1"  Part="1" 
 AR Path="/5F6BFC9B/5EDB5022" Ref="D?"  Part="1" 
 AR Path="/5EFF2C78/5EDB5022" Ref="D3"  Part="1" 
-F 0 "D3" H 5550 3733 50  0000 C CNN
+F 0 "D1" H 5550 3733 50  0000 C CNN
 F 1 "BAT46WJ" H 5550 3824 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323F" H 5550 3950 50  0001 C CNN
-F 3 "~" H 5550 3950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAT46WJ.pdf" H 5550 3950 50  0001 C CNN
+F 4 "Nexperia" H 5550 3950 50  0001 C CNN "Manufacturer"
+F 5 "BAT46WJF" H 5550 3950 50  0001 C CNN "Part Number"
 	1    5550 3950
 	-1   0    0    1   
 $EndComp
@@ -1330,10 +1429,12 @@ P 7350 5500
 AR Path="/5EA10576/5ED5F3B8" Ref="Q2"  Part="1" 
 AR Path="/5F6BFC9B/5ED5F3B8" Ref="Q?"  Part="1" 
 AR Path="/5EFF2C78/5ED5F3B8" Ref="Q8"  Part="1" 
-F 0 "Q8" H 7555 5546 50  0000 L CNN
+F 0 "Q2" H 7555 5546 50  0000 L CNN
 F 1 "NTMFS5C682NL" H 7555 5455 50  0000 L CNN
 F 2 "station:ONSemi_SO-8FL_488AA_Fill" H 7550 5600 50  0001 C CNN
-F 3 "~" H 7350 5500 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/ntmfs5c682nl-d.pdf" H 7350 5500 50  0001 C CNN
+F 4 "ON Semiconductor" H 7350 5500 50  0001 C CNN "Manufacturer"
+F 5 "NTMFS5C682NL" H 7350 5500 50  0001 C CNN "Part Number"
 	1    7350 5500
 	1    0    0    -1  
 $EndComp
@@ -1344,10 +1445,12 @@ P 7350 4400
 AR Path="/5EA10576/5ED69B4D" Ref="Q1"  Part="1" 
 AR Path="/5F6BFC9B/5ED69B4D" Ref="Q?"  Part="1" 
 AR Path="/5EFF2C78/5ED69B4D" Ref="Q7"  Part="1" 
-F 0 "Q7" H 7555 4446 50  0000 L CNN
+F 0 "Q1" H 7555 4446 50  0000 L CNN
 F 1 "NTMFS5C682NL" H 7555 4355 50  0000 L CNN
 F 2 "station:ONSemi_SO-8FL_488AA_Fill" H 7550 4500 50  0001 C CNN
-F 3 "~" H 7350 4400 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/ntmfs5c682nl-d.pdf" H 7350 4400 50  0001 C CNN
+F 4 "ON Semiconductor" H 7350 4400 50  0001 C CNN "Manufacturer"
+F 5 "NTMFS5C682NL" H 7350 4400 50  0001 C CNN "Part Number"
 	1    7350 4400
 	1    0    0    -1  
 $EndComp
@@ -1359,12 +1462,14 @@ AR Path="/5EA10576/5EDA16EF" Ref="C15"  Part="1"
 AR Path="/5EEA69D8/5EDA16EF" Ref="C?"  Part="1" 
 AR Path="/5F6BFC9B/5EDA16EF" Ref="C?"  Part="1" 
 AR Path="/5EFF2C78/5EDA16EF" Ref="C52"  Part="1" 
-F 0 "C52" H 8965 3996 50  0000 L CNN
+F 0 "C15" H 8965 3996 50  0000 L CNN
 F 1 "2.2u" H 8965 3905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 8888 3800 50  0001 C CNN
-F 3 "~" H 8850 3950 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=HMK325B7225KM-T%20%20&u=M" H 8850 3950 50  0001 C CNN
 F 4 "100 V" H 8850 3950 50  0001 C CNN "Voltage Rating"
-F 5 "C3225X7R2A225K230AB" H 8850 3950 50  0001 C CNN "Model"
+F 5 "HMK325B7225KM-T" H 8850 3950 50  0001 C CNN "Part Number"
+F 6 "Taiyo Yuden" H 8850 3950 50  0001 C CNN "Manufacturer"
+F 7 "10%" H 8850 3950 50  0001 C CNN "Tolerance"
 	1    8850 3950
 	1    0    0    -1  
 $EndComp
@@ -1378,11 +1483,14 @@ P 9250 3950
 AR Path="/5EA10576/5EDA27EE" Ref="C18"  Part="1" 
 AR Path="/5F6BFC9B/5EDA27EE" Ref="C?"  Part="1" 
 AR Path="/5EFF2C78/5EDA27EE" Ref="C55"  Part="1" 
-F 0 "C55" H 9368 3996 50  0000 L CNN
+F 0 "C18" H 9368 3996 50  0000 L CNN
 F 1 "100u" H 9368 3905 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 9288 3800 50  0001 C CNN
-F 3 "~" H 9250 3950 50  0001 C CNN
+F 3 "http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_yxj.pdf" H 9250 3950 50  0001 C CNN
 F 4 "63 V" H 9250 3950 50  0001 C CNN "Voltage Rating"
+F 5 "Rubycon" H 9250 3950 50  0001 C CNN "Manufacturer"
+F 6 "63YXJ100M10X12.5" H 9250 3950 50  0001 C CNN "Part Number"
+F 7 "20%" H 9250 3950 50  0001 C CNN "Tolerance"
 	1    9250 3950
 	1    0    0    -1  
 $EndComp
@@ -1401,11 +1509,14 @@ AR Path="/5EA10576/5EDD10EF" Ref="C5"  Part="1"
 AR Path="/5EEA69D8/5EDD10EF" Ref="C?"  Part="1" 
 AR Path="/5F6BFC9B/5EDD10EF" Ref="C?"  Part="1" 
 AR Path="/5EFF2C78/5EDD10EF" Ref="C42"  Part="1" 
-F 0 "C42" H 3815 4196 50  0000 L CNN
+F 0 "C5" H 3815 4196 50  0000 L CNN
 F 1 "10u" H 3815 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 3738 4000 50  0001 C CNN
-F 3 "~" H 3700 4150 50  0001 C CNN
+F 3 "http://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf" H 3700 4150 50  0001 C CNN
 F 4 "35 V" H 3700 4150 50  0001 C CNN "Voltage Rating"
+F 5 "Taiyo Yuden" H 3700 4150 50  0001 C CNN "Manufacturer"
+F 6 "GMK316AB7106KL-TR" H 3700 4150 50  0001 C CNN "Part Number"
+F 7 "10%" H 3700 4150 50  0001 C CNN "Tolerance"
 	1    3700 4150
 	1    0    0    -1  
 $EndComp
@@ -1465,10 +1576,11 @@ U 1 1 5EFF1D6B
 P 10150 5400
 AR Path="/5EA10576/5EFF1D6B" Ref="NT1"  Part="1" 
 AR Path="/5EFF2C78/5EFF1D6B" Ref="NT3"  Part="1" 
-F 0 "NT3" H 10150 5489 50  0000 C CNN
+F 0 "NT1" H 10150 5489 50  0000 C CNN
 F 1 "Net-Tie_2" H 10150 5490 50  0001 C CNN
 F 2 "station:NetTie-2_SMD_Pad0.2mm" H 10150 5400 50  0001 C CNN
 F 3 "~" H 10150 5400 50  0001 C CNN
+F 4 "X" H 10150 5400 50  0001 C CNN "DNP"
 	1    10150 5400
 	1    0    0    -1  
 $EndComp
@@ -1480,10 +1592,11 @@ U 1 1 5F013575
 P 10150 5700
 AR Path="/5EA10576/5F013575" Ref="NT2"  Part="1" 
 AR Path="/5EFF2C78/5F013575" Ref="NT4"  Part="1" 
-F 0 "NT4" H 10150 5789 50  0000 C CNN
+F 0 "NT2" H 10150 5789 50  0000 C CNN
 F 1 "Net-Tie_2" H 10150 5790 50  0001 C CNN
 F 2 "station:NetTie-2_SMD_Pad0.2mm" H 10150 5700 50  0001 C CNN
 F 3 "~" H 10150 5700 50  0001 C CNN
+F 4 "X" H 10150 5700 50  0001 C CNN "DNP"
 	1    10150 5700
 	1    0    0    -1  
 $EndComp

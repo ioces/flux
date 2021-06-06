@@ -59,8 +59,11 @@ AR Path="/5EFB3476/5F24CD58" Ref="C58"  Part="1"
 F 0 "C58" H 1365 6846 50  0000 L CNN
 F 1 "1u" H 1365 6755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 1288 6650 50  0001 C CNN
-F 3 "~" H 1250 6800 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C105K3RACAUTO.pdf" H 1250 6800 50  0001 C CNN
 F 4 "25 V" H 1250 6800 50  0001 C CNN "Voltage Rating"
+F 5 "KEMET" H 1250 6800 50  0001 C CNN "Manufacturer"
+F 6 "C1206C105K3RACAUTO" H 1250 6800 50  0001 C CNN "Part Number"
+F 7 "10%" H 1250 6800 50  0001 C CNN "Tolerance"
 	1    1250 6800
 	1    0    0    -1  
 $EndComp
@@ -76,8 +79,11 @@ AR Path="/5EFB3476/5F24F054" Ref="C59"  Part="1"
 F 0 "C59" H 2115 5346 50  0000 L CNN
 F 1 "0.1u" H 2115 5255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2038 5150 50  0001 C CNN
-F 3 "~" H 2000 5300 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=GMK107B7104KAHT%20%20&u=M" H 2000 5300 50  0001 C CNN
 F 4 "35 V" H 2000 5300 50  0001 C CNN "Voltage Rating"
+F 5 "Taiyo Yuden" H 2000 5300 50  0001 C CNN "Manufacturer"
+F 6 "GMK107B7104KAHT" H 2000 5300 50  0001 C CNN "Part Number"
+F 7 "10%" H 2000 5300 50  0001 C CNN "Tolerance"
 	1    2000 5300
 	1    0    0    -1  
 $EndComp
@@ -93,8 +99,11 @@ AR Path="/5EFB3476/5F2500C1" Ref="C60"  Part="1"
 F 0 "C60" H 2515 5346 50  0000 L CNN
 F 1 "0.1u" H 2515 5255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2438 5150 50  0001 C CNN
-F 3 "~" H 2400 5300 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=GMK107B7104KAHT%20%20&u=M" H 2400 5300 50  0001 C CNN
 F 4 "35 V" H 2400 5300 50  0001 C CNN "Voltage Rating"
+F 5 "Taiyo Yuden" H 2400 5300 50  0001 C CNN "Manufacturer"
+F 6 "GMK107B7104KAHT" H 2400 5300 50  0001 C CNN "Part Number"
+F 7 "10%" H 2400 5300 50  0001 C CNN "Tolerance"
 	1    2400 5300
 	1    0    0    -1  
 $EndComp
@@ -110,8 +119,11 @@ AR Path="/5EFB3476/5F250BC3" Ref="C61"  Part="1"
 F 0 "C61" H 2915 5346 50  0000 L CNN
 F 1 "0.1u" H 2915 5255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2838 5150 50  0001 C CNN
-F 3 "~" H 2800 5300 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=GMK107B7104KAHT%20%20&u=M" H 2800 5300 50  0001 C CNN
 F 4 "35 V" H 2800 5300 50  0001 C CNN "Voltage Rating"
+F 5 "Taiyo Yuden" H 2800 5300 50  0001 C CNN "Manufacturer"
+F 6 "GMK107B7104KAHT" H 2800 5300 50  0001 C CNN "Part Number"
+F 7 "10%" H 2800 5300 50  0001 C CNN "Tolerance"
 	1    2800 5300
 	1    0    0    -1  
 $EndComp
@@ -231,8 +243,11 @@ AR Path="/5EFB3476/5F376695" Ref="C63"  Part="1"
 F 0 "C63" H 3465 6946 50  0000 L CNN
 F 1 "1u" H 3465 6855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 3388 6750 50  0001 C CNN
-F 3 "~" H 3350 6900 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C105K3RACAUTO.pdf" H 3350 6900 50  0001 C CNN
 F 4 "25 V" H 3350 6900 50  0001 C CNN "Voltage Rating"
+F 5 "KEMET" H 3350 6900 50  0001 C CNN "Manufacturer"
+F 6 "C1206C105K3RACAUTO" H 3350 6900 50  0001 C CNN "Part Number"
+F 7 "10%" H 3350 6900 50  0001 C CNN "Tolerance"
 	1    3350 6900
 	1    0    0    -1  
 $EndComp
@@ -252,7 +267,9 @@ P 2600 6300
 F 0 "U11" H 2600 6839 60  0000 C CNN
 F 1 "STM32G431CBT6" H 2600 6733 60  0000 C CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 2600 7500 60  0001 C CNN
-F 3 "" H 700 7550 60  0000 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32g431cb.pdf" H 700 7550 60  0000 C CNN
+F 4 "ST Microelectronics" H 2600 6300 50  0001 C CNN "Manufacturer"
+F 5 "STM32G431CBT6" H 2600 6300 50  0001 C CNN "Part Number"
 	2    2600 6300
 	1    0    0    -1  
 $EndComp
@@ -272,8 +289,11 @@ AR Path="/5EFB3476/5F3BD256" Ref="C57"  Part="1"
 F 0 "C57" H 965 6846 50  0000 L CNN
 F 1 "10n" H 965 6755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 888 6650 50  0001 C CNN
-F 3 "~" H 850 6800 50  0001 C CNN
-F 4 "35 V" H 850 6800 50  0001 C CNN "Voltage Rating"
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf?ref_disty=digikey" H 850 6800 50  0001 C CNN
+F 4 "100 V" H 850 6800 50  0001 C CNN "Voltage Rating"
+F 5 "TDK" H 850 6800 50  0001 C CNN "Manufacturer"
+F 6 "C1608X7R2A103K080AA" H 850 6800 50  0001 C CNN "Part Number"
+F 7 "10%" H 850 6800 50  0001 C CNN "Tolerance"
 	1    850  6800
 	1    0    0    -1  
 $EndComp
@@ -293,8 +313,11 @@ AR Path="/5EFB3476/5F3C4348" Ref="C64"  Part="1"
 F 0 "C64" H 3815 6946 50  0000 L CNN
 F 1 "0.1u" H 3815 6855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3738 6750 50  0001 C CNN
-F 3 "~" H 3700 6900 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=GMK107B7104KAHT%20%20&u=M" H 3700 6900 50  0001 C CNN
 F 4 "35 V" H 3700 6900 50  0001 C CNN "Voltage Rating"
+F 5 "Taiyo Yuden" H 3700 6900 50  0001 C CNN "Manufacturer"
+F 6 "GMK107B7104KAHT" H 3700 6900 50  0001 C CNN "Part Number"
+F 7 "10%" H 3700 6900 50  0001 C CNN "Tolerance"
 	1    3700 6900
 	1    0    0    -1  
 $EndComp
@@ -320,8 +343,11 @@ AR Path="/5EFB3476/5F3CC735" Ref="C62"  Part="1"
 F 0 "C62" H 3315 5346 50  0000 L CNN
 F 1 "4.7u" H 3315 5255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 3238 5150 50  0001 C CNN
-F 3 "~" H 3200 5300 50  0001 C CNN
-F 4 "" H 3200 5300 50  0001 C CNN "Voltage Rating"
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B475KAHNFNE.jsp" H 3200 5300 50  0001 C CNN
+F 4 "25 V" H 3200 5300 50  0001 C CNN "Voltage Rating"
+F 5 "Samsung" H 3200 5300 50  0001 C CNN "Manufacturer"
+F 6 "CL31B475KAHNFNE" H 3200 5300 50  0001 C CNN "Part Number"
+F 7 "10%" H 3200 5300 50  0001 C CNN "Tolerance"
 	1    3200 5300
 	1    0    0    -1  
 $EndComp
@@ -410,7 +436,9 @@ P 7000 2350
 F 0 "U11" H 6975 3639 60  0000 C CNN
 F 1 "STM32G431CBT6" H 6975 3533 60  0000 C CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 7000 3550 60  0001 C CNN
-F 3 "" H 5100 3600 60  0000 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32g431cb.pdf" H 5100 3600 60  0000 C CNN
+F 4 "ST Microelectronics" H 7000 2350 50  0001 C CNN "Manufacturer"
+F 5 "STM32G431CBT6" H 7000 2350 50  0001 C CNN "Part Number"
 	1    7000 2350
 	1    0    0    -1  
 $EndComp
@@ -421,7 +449,10 @@ P 9700 1950
 F 0 "R60" H 9770 1996 50  0000 L CNN
 F 1 "120k" H 9770 1905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9630 1950 50  0001 C CNN
-F 3 "~" H 9700 1950 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 9700 1950 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 9700 1950 50  0001 C CNN "Manufacturer"
+F 5 "RMCF0603FT120K" H 9700 1950 50  0001 C CNN "Part Number"
+F 6 "1%" H 9700 1950 50  0001 C CNN "Tolerance"
 	1    9700 1950
 	1    0    0    -1  
 $EndComp
@@ -440,7 +471,10 @@ P 9100 1550
 F 0 "R58" H 9170 1596 50  0000 L CNN
 F 1 "2.2k" H 9170 1505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 1550 50  0001 C CNN
-F 3 "~" H 9100 1550 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 9100 1550 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 9100 1550 50  0001 C CNN "Manufacturer"
+F 5 "RMCF0603JT2K20" H 9100 1550 50  0001 C CNN "Part Number"
+F 6 "5%" H 9100 1550 50  0001 C CNN "Tolerance"
 	1    9100 1550
 	1    0    0    -1  
 $EndComp
@@ -453,7 +487,10 @@ P 9100 2450
 F 0 "R59" H 9170 2496 50  0000 L CNN
 F 1 "2.2k" H 9170 2405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 2450 50  0001 C CNN
-F 3 "~" H 9100 2450 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 9100 2450 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 9100 2450 50  0001 C CNN "Manufacturer"
+F 5 "RMCF0603JT2K20" H 9100 2450 50  0001 C CNN "Part Number"
+F 6 "5%" H 9100 2450 50  0001 C CNN "Tolerance"
 	1    9100 2450
 	1    0    0    -1  
 $EndComp
@@ -494,8 +531,11 @@ AR Path="/5EFB3476/5F4F09B0" Ref="C65"  Part="1"
 F 0 "C65" H 8415 3646 50  0000 L CNN
 F 1 "0.1u" H 8415 3555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8338 3450 50  0001 C CNN
-F 3 "~" H 8300 3600 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=GMK107B7104KAHT%20%20&u=M" H 8300 3600 50  0001 C CNN
 F 4 "35 V" H 8300 3600 50  0001 C CNN "Voltage Rating"
+F 5 "Taiyo Yuden" H 8300 3600 50  0001 C CNN "Manufacturer"
+F 6 "GMK107B7104KAHT" H 8300 3600 50  0001 C CNN "Part Number"
+F 7 "10%" H 8300 3600 50  0001 C CNN "Tolerance"
 	1    8300 3600
 	1    0    0    -1  
 $EndComp
@@ -648,6 +688,7 @@ F 0 "J4" H 6900 5375 50  0000 C CNN
 F 1 "Conn_02x05_Counter_Clockwise" H 6900 5376 50  0001 C CNN
 F 2 "Connector:Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical" H 6850 5050 50  0001 C CNN
 F 3 "~" H 6850 5050 50  0001 C CNN
+F 4 "X" H 6850 5050 50  0001 C CNN "DNP"
 	1    6850 5050
 	1    0    0    -1  
 $EndComp

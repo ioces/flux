@@ -34,7 +34,9 @@ P 9300 2550
 F 0 "J1" H 9020 2483 50  0000 R CNN
 F 1 "AudioJack3" H 9020 2574 50  0000 R CNN
 F 2 "station:Jack_3.5mm_Adam_Tech_ASJ-125-3" H 9300 2550 50  0001 C CNN
-F 3 "~" H 9300 2550 50  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/203685/asj-125-3-data-sheet.pdf" H 9300 2550 50  0001 C CNN
+F 4 "Adam Tech" H 9300 2550 50  0001 C CNN "Manufacturer"
+F 5 "ASJ-125-3" H 9300 2550 50  0001 C CNN "Part Number"
 	1    9300 2550
 	-1   0    0    1   
 $EndComp
@@ -47,7 +49,9 @@ P 9300 3850
 F 0 "J2" H 9020 3783 50  0000 R CNN
 F 1 "AudioJack3" H 9020 3874 50  0000 R CNN
 F 2 "station:Jack_3.5mm_Adam_Tech_ASJ-125-3" H 9300 3850 50  0001 C CNN
-F 3 "~" H 9300 3850 50  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/203685/asj-125-3-data-sheet.pdf" H 9300 3850 50  0001 C CNN
+F 4 "Adam Tech" H 9300 3850 50  0001 C CNN "Manufacturer"
+F 5 "ASJ-125-3" H 9300 3850 50  0001 C CNN "Part Number"
 	1    9300 3850
 	-1   0    0    1   
 $EndComp
@@ -166,7 +170,9 @@ P 5600 2600
 F 0 "J3" H 5650 2925 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 5650 2926 50  0001 C CNN
 F 2 "station:PinHeader_2x05_P2.54mm_BoardEdge" H 5600 2600 50  0001 C CNN
-F 3 "~" H 5600 2600 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10129382.pdf" H 5600 2600 50  0001 C CNN
+F 4 "Amphenol" H 5600 2600 50  0001 C CNN "Manufacturer"
+F 5 "10129382-910002BLF" H 5600 2600 50  0001 C CNN "Part Number"
 	1    5600 2600
 	1    0    0    -1  
 $EndComp
@@ -383,7 +389,10 @@ AR Path="/5F3992D1" Ref="R61"  Part="1"
 F 0 "R61" H 2920 2046 50  0000 L CNN
 F 1 "2M" H 2920 1955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2780 2000 50  0001 C CNN
-F 3 "~" H 2850 2000 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 2850 2000 50  0001 C CNN
+F 4 "Panasonic" H 2850 2000 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF2004V" H 2850 2000 50  0001 C CNN "Part Number"
+F 6 "1%" H 2850 2000 50  0001 C CNN "Tolerance"
 	1    2850 2000
 	1    0    0    -1  
 $EndComp
@@ -396,7 +405,10 @@ AR Path="/5F3992D7" Ref="R62"  Part="1"
 F 0 "R62" H 2920 2446 50  0000 L CNN
 F 1 "120k" H 2920 2355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2780 2400 50  0001 C CNN
-F 3 "~" H 2850 2400 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 2850 2400 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 2850 2400 50  0001 C CNN "Manufacturer"
+F 5 "RMCF0603FT120K" H 2850 2400 50  0001 C CNN "Part Number"
+F 6 "1%" H 2850 2400 50  0001 C CNN "Tolerance"
 	1    2850 2400
 	1    0    0    -1  
 $EndComp
@@ -444,7 +456,9 @@ P 1750 6100
 F 0 "J5" H 1668 6225 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 1668 6226 50  0001 C CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1750 6100 50  0001 C CNN
-F 3 "~" H 1750 6100 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/digikeypdf/tb004-508.pdf" H 1750 6100 50  0001 C CNN
+F 4 "CUI Devices" H 1750 6100 50  0001 C CNN "Manufacturer"
+F 5 "TB004-508-02BE" H 1750 6100 50  0001 C CNN "Part Number"
 	1    1750 6100
 	-1   0    0    1   
 $EndComp
@@ -492,7 +506,9 @@ P 2150 5800
 F 0 "F1" H 2210 5800 50  0000 L CNN
 F 1 "Fuse" H 2210 5755 50  0001 L CNN
 F 2 "station:Fuse_2410" V 2080 5800 50  0001 C CNN
-F 3 "~" H 2150 5800 50  0001 C CNN
+F 3 "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-cb61f-surface-mount-brick-fuses-data-sheet.pdf" H 2150 5800 50  0001 C CNN
+F 4 "Eaton" H 2150 5800 50  0001 C CNN "Manufacturer"
+F 5 "CB61F15A-TR2" H 2150 5800 50  0001 C CNN "Part Number"
 	1    2150 5800
 	1    0    0    -1  
 $EndComp
@@ -503,7 +519,9 @@ P 2500 5800
 F 0 "F2" H 2560 5800 50  0000 L CNN
 F 1 "Fuse" H 2560 5755 50  0001 L CNN
 F 2 "Fuse:Fuse_1206_3216Metric" V 2430 5800 50  0001 C CNN
-F 3 "~" H 2500 5800 50  0001 C CNN
+F 3 "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-c1f-series.pdf" H 2500 5800 50  0001 C CNN
+F 4 "Bel Fuse Inc" H 2500 5800 50  0001 C CNN "Manufacturer"
+F 5 "C1F 375" H 2500 5800 50  0001 C CNN "Part Number"
 	1    2500 5800
 	1    0    0    -1  
 $EndComp
