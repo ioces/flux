@@ -1,5 +1,6 @@
 #include "entrypoint.h"
 #include "controller.h"
+#include "input.h"
 #include <FreeRTOS.h>
 #include <task.h>
 #include <stdbool.h>
