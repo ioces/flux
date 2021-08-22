@@ -6,7 +6,7 @@ static uint16_t _voltages[CHANNEL_SAMPLE_COUNT][CHANNEL_COUNT];
 static uint16_t _currents[CHANNEL_SAMPLE_COUNT][CHANNEL_COUNT];
 
 
-void Channel_update_all(void)
+void channel_update_all(void)
 {
 	uint8_t i;
 

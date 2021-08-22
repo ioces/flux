@@ -5,9 +5,10 @@
 #include <stdbool.h>
 
 
-void Entrypoint_go(void)
+void entrypoint_go(void)
 {
-	Controller_initialise();
+	input_initialise();
+	controller_initialise();
 
 	// Start the scheduler
 	vTaskStartScheduler();

@@ -2,6 +2,6 @@
 #define CONTROLLER_H
 
 
-void Controller_initialise(void);
+void controller_initialise(void);
 
 #endif

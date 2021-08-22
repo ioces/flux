@@ -46,6 +46,7 @@ DMA_HandleTypeDef hdma_adc1;
 DMA_HandleTypeDef hdma_adc2;
 
 I2C_HandleTypeDef hi2c1;
+DMA_HandleTypeDef hdma_i2c1_rx;
 
 OPAMP_HandleTypeDef hopamp1;
 
@@ -115,7 +116,7 @@ int main(void)
   MX_TIM15_Init();
   MX_OPAMP1_Init();
   /* USER CODE BEGIN 2 */
-  Entrypoint_go();
+  entrypoint_go();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -337,7 +338,7 @@ static void MX_I2C1_Init(void)
 
   /* USER CODE END I2C1_Init 1 */
   hi2c1.Instance = I2C1;
-  hi2c1.Init.Timing = 0x20A0C4DF;
+  hi2c1.Init.Timing = 0x2040184B;
   hi2c1.Init.OwnAddress1 = 0;
   hi2c1.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
   hi2c1.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
@@ -618,6 +619,9 @@ static void MX_DMA_Init(void)
   /* DMA1_Channel2_IRQn interrupt configuration */
   HAL_NVIC_SetPriority(DMA1_Channel2_IRQn, 0, 0);
   HAL_NVIC_EnableIRQ(DMA1_Channel2_IRQn);
+  /* DMA1_Channel3_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(DMA1_Channel3_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(DMA1_Channel3_IRQn);
 
 }
 
@@ -637,6 +641,12 @@ static void MX_GPIO_Init(void)
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOB, LCD_RS_Pin|SCL_PU_Pin|SDA_PU_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin : EXP_INT_Pin */
+  GPIO_InitStruct.Pin = EXP_INT_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  HAL_GPIO_Init(EXP_INT_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pins : LCD_RS_Pin SCL_PU_Pin SDA_PU_Pin */
   GPIO_InitStruct.Pin = LCD_RS_Pin|SCL_PU_Pin|SDA_PU_Pin;
