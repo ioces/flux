@@ -37,15 +37,38 @@ DMA_HandleTypeDef hdma_i2c1_rx;
 
 #define IOEXP_ADDR_WR 0b01000000
 #define IOEXP_ADDR_RD 0b01000001
+#define IOEXP_TIMEOUT (1 / HAL_GetTickFreq())
 
 static const uint8_t ioexp_init_commands[][3] =
 {
 	{0x46, 0b11111111, 0b00000011}, // Enable pullups for all port 0 inputs and two port 1 bits
 	{0x4a, 0b00000000, 0b11111100} // Enable interrupts for all port 0 inputs, and two port 1 bits
 };
+static const uint8_t ioexp_read_input_command[] = { 0x00 };
 
 static uint16_t ioexp_value;
 
+
+static void ioexp_write(const uint8_t* data, uint16_t size)
+{
+	if (HAL_I2C_Master_Transmit(&hi2c1, IOEXP_ADDR_WR, (uint8_t*)data, size, IOEXP_TIMEOUT) != HAL_OK)
+	{
+		Error_Handler();
+	}
+}
+
+static void ioexp_read(uint8_t* data, uint16_t size)
+{
+	if (HAL_I2C_Master_Receive(&hi2c1, IOEXP_ADDR_RD, data, size, IOEXP_TIMEOUT) != HAL_OK)
+	{
+		Error_Handler();
+	}
+}
+
+static void ioexp_handle_interrupt(void)
+{
+
+}
 
 void input_initialise(void)
 {
@@ -56,24 +79,27 @@ void input_initialise(void)
 	size_t i;
 	for (i = 0; i < sizeof(ioexp_init_commands) / sizeof(ioexp_init_commands[0]); ++i)
 	{
-		if (HAL_I2C_Master_Transmit(&hi2c1, IOEXP_ADDR_WR, ioexp_init_commands[i], sizeof(ioexp_init_commands[i]), 1 / HAL_GetTickFreq()) != HAL_OK)
-		{
-			Error_Handler();
-		}
+		ioexp_write(ioexp_init_commands[i], sizeof(ioexp_init_commands[i]));
 	}
 
 	// Get the current inputs
-	if (HAL_I2C_Master_Receive(&hi2c1, IOEXP_ADDR_RD, &ioexp_value, sizeof(ioexp_value), 1 / HAL_GetTickFreq()) != HAL_OK)
-	{
-		Error_Handler();
-	}
+	ioexp_write(ioexp_read_input_command, sizeof(ioexp_read_input_command));
+	ioexp_read((uint8_t*)&ioexp_value, sizeof(ioexp_value));
 
 	// Initialise variables
 	changed = true;
 	read = true;
 
 	// Set up an interrupt handler to handle input changes
-	if (HAL_EXTI_SetConfigLine() != HAL_OK || HAL_EXTI_RegisterCallback() != HAL_OK)
+	EXTI_HandleTypeDef exti_handle;
+	EXTI_ConfigTypeDef exti_config;
+	exti_config.GPIOSel = EXTI_GPIOC;
+	exti_config.Line = EXTI_LINE_13;
+	exti_config.Mode = EXTI_MODE_INTERRUPT;
+	exti_config.Trigger = EXTI_TRIGGER_FALLING;
+	if (HAL_EXTI_GetHandle(&exti_handle, EXTI_LINE_13) != HAL_OK ||
+		HAL_EXTI_SetConfigLine(&exti_handle, &exti_config) != HAL_OK ||
+		HAL_EXTI_RegisterCallback(&exti_handle, HAL_EXTI_COMMON_CB_ID, ioexp_handle_interrupt) != HAL_OK)
 	{
 		Error_Handler();
 	}
