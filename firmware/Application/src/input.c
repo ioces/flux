@@ -67,7 +67,9 @@ static void ioexp_read(uint8_t* data, uint16_t size)
 
 static void ioexp_handle_interrupt(void)
 {
+	changed = true;
 
+	// Start a DMA transfer of the latest values
 }
 
 void input_initialise(void)
@@ -112,9 +114,25 @@ static portTASK_FUNCTION(task, parameters)
 {
 	while (true)
 	{
-		if (changed && read)
+		if (changed)
 		{
-
+			if (read)
+			{
+				if (true)//(valid)
+				{
+					changed = false;
+					read = false;
+				}
+				else
+				{
+					// Start another read.
+					read = false;
+				}
+			}
+			else
+			{
+				// Nothing to do here but wait for it to be read.
+			}
 		}
 	}
 }
