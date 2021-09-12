@@ -32,8 +32,8 @@ static bool read;
 
 static portTASK_FUNCTION_PROTO(task, parameters);
 
-I2C_HandleTypeDef hi2c1;
-DMA_HandleTypeDef hdma_i2c1_rx;
+extern I2C_HandleTypeDef hi2c1;
+extern DMA_HandleTypeDef hdma_i2c1_rx;
 
 #define IOEXP_ADDR_WR 0b01000000
 #define IOEXP_ADDR_RD 0b01000001
@@ -69,7 +69,11 @@ static void ioexp_handle_interrupt(void)
 {
 	changed = true;
 
-	// Start a DMA transfer of the latest values
+	// Start a DMA transfer of the latest values. We assume here that the IO expander
+	// is in a sensible state to simply do a read without having to transmit register
+	// information first.
+	HAL_I2C_Master_Receive_DMA();
+	HAL_I2C_Master_Receive_IT();
 }
 
 void input_initialise(void)
