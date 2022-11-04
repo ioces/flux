@@ -20,6 +20,7 @@ struct Tip {
 
 	float voltage;
 	float current;
+	float temperature;
 };
 
 #endif
